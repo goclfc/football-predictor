@@ -1,0 +1,2563 @@
+{
+  "timestamp": "2026-04-04T14:13:37.455199",
+  "summary": {
+    "total_matches": 50,
+    "correct_predictions": 17,
+    "overall_accuracy": 0.34,
+    "league_accuracy": {
+      "La Liga": {
+        "accuracy": 0.4,
+        "correct": 4,
+        "total": 10
+      },
+      "Premier League": {
+        "accuracy": 0.3,
+        "correct": 3,
+        "total": 10
+      },
+      "Serie A": {
+        "accuracy": 0.2,
+        "correct": 2,
+        "total": 10
+      },
+      "Bundesliga": {
+        "accuracy": 0.1,
+        "correct": 1,
+        "total": 10
+      },
+      "Ligue 1": {
+        "accuracy": 0.7,
+        "correct": 7,
+        "total": 10
+      }
+    },
+    "calibration": {
+      "<50%": {
+        "predicted": 0.45,
+        "actual": 0.28205128205128205,
+        "correct": 11,
+        "total": 39
+      },
+      "50-60%": {
+        "predicted": 0.55,
+        "actual": 0.5454545454545454,
+        "correct": 6,
+        "total": 11
+      }
+    },
+    "market_accuracy": {
+      "over_under_2_5": {
+        "accuracy": 0.42,
+        "correct": 21,
+        "total": 50
+      },
+      "btts": {
+        "accuracy": 0.48,
+        "correct": 24,
+        "total": 50
+      },
+      "corners_over_9_5": {
+        "accuracy": 0.56,
+        "correct": 28,
+        "total": 50
+      },
+      "cards_over_3_5": {
+        "accuracy": 0.68,
+        "correct": 34,
+        "total": 50
+      }
+    },
+    "value_bet_results": {
+      "total_bets": 0,
+      "winning_bets": 0,
+      "win_rate": 0,
+      "roi_percent": 0,
+      "total_stake": 0,
+      "total_return": 0
+    },
+    "strengths": [
+      "Excellent cards_over_3_5 accuracy: 68.0%",
+      "Strong in Ligue 1: 70.0%"
+    ],
+    "weaknesses": [
+      "Poor over_under_2_5 accuracy: 42.0%",
+      "Weak in Bundesliga: 10.0%"
+    ]
+  },
+  "matches": [
+    {
+      "fixture_id": 1208827,
+      "home_team": "Athletic Club",
+      "away_team": "Barcelona",
+      "league": "La Liga",
+      "kickoff": "2025-05-25T19:00:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.397,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.397,
+        "draw": 0.2657,
+        "away_win": 0.3374,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.64,
+        "away": 1.38,
+        "total": 3.01
+      },
+      "actual_stats": {
+        "home_shots": 3,
+        "home_corners": 2,
+        "home_cards": 1,
+        "away_shots": 4,
+        "away_corners": 6,
+        "total_corners": 8,
+        "total_shots": 7
+      },
+      "match_stats_pred": {
+        "corners": 9.8,
+        "home_corners": 5.0,
+        "away_corners": 4.8,
+        "cards": 4.4,
+        "home_cards": 2.4,
+        "away_cards": 2.5,
+        "fouls": 24.5,
+        "shots": 20.0,
+        "sot": 8.3,
+        "reds": 0.21,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208835,
+      "home_team": "Villarreal",
+      "away_team": "Sevilla",
+      "league": "La Liga",
+      "kickoff": "2025-05-25T14:15:00+00:00",
+      "actual_score": {
+        "home": 4,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.474,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.474,
+        "draw": 0.2708,
+        "away_win": 0.2552,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.56,
+        "away": 1.04,
+        "total": 2.59
+      },
+      "actual_stats": {
+        "home_shots": 4,
+        "home_corners": 3,
+        "away_shots": 5,
+        "away_corners": 5,
+        "away_cards": 1,
+        "total_corners": 8,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.7,
+        "away_corners": 4.5,
+        "cards": 4.7,
+        "home_cards": 2.3,
+        "away_cards": 2.3,
+        "fouls": 25.0,
+        "shots": 18.1,
+        "sot": 7.5,
+        "reds": 0.25,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208832,
+      "home_team": "Girona",
+      "away_team": "Atletico Madrid",
+      "league": "La Liga",
+      "kickoff": "2025-05-25T12:00:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 4
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4215,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4215,
+        "draw": 0.2758,
+        "away_win": 0.3026,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.48,
+        "away": 1.08,
+        "total": 2.56
+      },
+      "actual_stats": {
+        "home_shots": 1,
+        "home_corners": 1,
+        "away_shots": 7,
+        "away_corners": 8,
+        "total_corners": 9,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 9.7,
+        "home_corners": 5.0,
+        "away_corners": 4.8,
+        "cards": 4.8,
+        "home_cards": 2.5,
+        "away_cards": 2.6,
+        "fouls": 24.5,
+        "shots": 19.8,
+        "sot": 8.2,
+        "reds": 0.22,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208833,
+      "home_team": "Getafe",
+      "away_team": "Celta Vigo",
+      "league": "La Liga",
+      "kickoff": "2025-05-24T19:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4647,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4647,
+        "draw": 0.2686,
+        "away_win": 0.2667,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.62,
+        "away": 1.09,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 2,
+        "home_cards": 1,
+        "away_shots": 6,
+        "away_corners": 6,
+        "away_cards": 4,
+        "total_corners": 8,
+        "total_cards": 5,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.2,
+        "home_cards": 2.1,
+        "away_cards": 2.1,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 7.9,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208830,
+      "home_team": "Alaves",
+      "away_team": "Osasuna",
+      "league": "La Liga",
+      "kickoff": "2025-05-24T19:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.4383,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4383,
+        "draw": 0.2713,
+        "away_win": 0.2904,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.59,
+        "away": 1.13,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 5,
+        "home_cards": 2,
+        "away_shots": 3,
+        "away_corners": 9,
+        "total_corners": 14,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.5,
+        "home_cards": 2.3,
+        "away_cards": 2.3,
+        "fouls": 24.5,
+        "shots": 19.0,
+        "sot": 7.9,
+        "reds": 0.22,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208834,
+      "home_team": "Rayo Vallecano",
+      "away_team": "Mallorca",
+      "league": "La Liga",
+      "kickoff": "2025-05-24T19:00:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.4647,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4647,
+        "draw": 0.2686,
+        "away_win": 0.2667,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.62,
+        "away": 1.09,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 10,
+        "home_corners": 11,
+        "home_cards": 2,
+        "away_shots": 4,
+        "away_corners": 2,
+        "total_corners": 13,
+        "total_shots": 14
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.3,
+        "home_cards": 2.2,
+        "away_cards": 2.2,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 7.9,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208831,
+      "home_team": "Leganes",
+      "away_team": "Valladolid",
+      "league": "La Liga",
+      "kickoff": "2025-05-24T16:30:00+00:00",
+      "actual_score": {
+        "home": 3,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4595,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4595,
+        "draw": 0.2692,
+        "away_win": 0.2714,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.62,
+        "away": 1.1,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 8,
+        "home_corners": 3,
+        "away_shots": 4,
+        "away_corners": 4,
+        "away_cards": 1,
+        "total_corners": 7,
+        "total_shots": 12
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.7,
+        "home_cards": 2.3,
+        "away_cards": 2.3,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 7.9,
+        "reds": 0.25,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1212947,
+      "home_team": "Espanyol",
+      "away_team": "Las Palmas",
+      "league": "La Liga",
+      "kickoff": "2025-05-24T16:30:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4699,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4699,
+        "draw": 0.2681,
+        "away_win": 0.262,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.63,
+        "away": 1.08,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 3,
+        "home_cards": 3,
+        "away_shots": 5,
+        "away_corners": 6,
+        "away_cards": 2,
+        "total_corners": 9,
+        "total_cards": 5,
+        "total_shots": 10
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.7,
+        "home_cards": 2.3,
+        "away_cards": 2.3,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 7.9,
+        "reds": 0.25,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208829,
+      "home_team": "Real Madrid",
+      "away_team": "Real Sociedad",
+      "league": "La Liga",
+      "kickoff": "2025-05-24T14:15:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.545,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.545,
+        "draw": 0.2501,
+        "away_win": 0.2048,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 2.01,
+        "away": 1.07,
+        "total": 3.08
+      },
+      "actual_stats": {
+        "home_shots": 6,
+        "home_corners": 11,
+        "away_shots": 2,
+        "away_corners": 4,
+        "total_corners": 15,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 9.4,
+        "home_corners": 4.8,
+        "away_corners": 4.6,
+        "cards": 4.5,
+        "home_cards": 2.3,
+        "away_cards": 2.4,
+        "fouls": 25.0,
+        "shots": 20.2,
+        "sot": 8.4,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208828,
+      "home_team": "Real Betis",
+      "away_team": "Valencia",
+      "league": "La Liga",
+      "kickoff": "2025-05-23T19:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.4897,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4897,
+        "draw": 0.2643,
+        "away_win": 0.246,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.71,
+        "away": 1.03,
+        "total": 2.75
+      },
+      "actual_stats": {
+        "home_shots": 4,
+        "home_corners": 3,
+        "home_cards": 1,
+        "away_shots": 3,
+        "away_corners": 2,
+        "away_cards": 3,
+        "total_corners": 5,
+        "total_cards": 4,
+        "total_shots": 7
+      },
+      "match_stats_pred": {
+        "corners": 9.2,
+        "home_corners": 4.8,
+        "away_corners": 4.5,
+        "cards": 4.3,
+        "home_cards": 2.2,
+        "away_cards": 2.2,
+        "fouls": 25.0,
+        "shots": 18.6,
+        "sot": 7.7,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208399,
+      "home_team": "Nottingham Forest",
+      "away_team": "Chelsea",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.414,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.414,
+        "draw": 0.2689,
+        "away_win": 0.3171,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.61,
+        "away": 1.26,
+        "total": 2.87
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 7,
+        "home_cards": 2,
+        "away_shots": 4,
+        "away_corners": 4,
+        "total_corners": 11,
+        "total_shots": 6
+      },
+      "match_stats_pred": {
+        "corners": 9.9,
+        "home_corners": 5.0,
+        "away_corners": 4.8,
+        "cards": 4.3,
+        "home_cards": 2.1,
+        "away_cards": 2.2,
+        "fouls": 24.5,
+        "shots": 19.1,
+        "sot": 8.0,
+        "reds": 0.2,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208400,
+      "home_team": "Southampton",
+      "away_team": "Arsenal",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 2
+      },
+      "predicted_result": "Away",
+      "actual_result": "Away",
+      "correct": true,
+      "confidence": 0.3926,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.3423,
+        "draw": 0.265,
+        "away_win": 0.3926,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.5,
+        "away": 1.45,
+        "total": 2.95
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 5,
+        "away_shots": 7,
+        "away_corners": 8,
+        "total_corners": 13,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 10.2,
+        "home_corners": 5.1,
+        "away_corners": 5.0,
+        "cards": 4.3,
+        "home_cards": 2.2,
+        "away_cards": 2.3,
+        "fouls": 24.5,
+        "shots": 20.2,
+        "sot": 8.5,
+        "reds": 0.19,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208395,
+      "home_team": "Ipswich",
+      "away_team": "West Ham",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4236,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4236,
+        "draw": 0.2692,
+        "away_win": 0.3071,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.63,
+        "away": 1.17,
+        "total": 2.8
+      },
+      "actual_stats": {
+        "home_shots": 4,
+        "home_corners": 4,
+        "home_cards": 1,
+        "away_shots": 3,
+        "total_shots": 7
+      },
+      "match_stats_pred": {
+        "corners": 10.1,
+        "home_corners": 5.1,
+        "away_corners": 4.9,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 24.5,
+        "shots": 19.6,
+        "sot": 8.2,
+        "reds": 0.2,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208402,
+      "home_team": "Wolves",
+      "away_team": "Brentford",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.4537,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4537,
+        "draw": 0.2704,
+        "away_win": 0.276,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.59,
+        "away": 1.1,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 10,
+        "home_corners": 8,
+        "home_cards": 2,
+        "away_shots": 2,
+        "away_corners": 3,
+        "away_cards": 1,
+        "total_corners": 11,
+        "total_cards": 3,
+        "total_shots": 12
+      },
+      "match_stats_pred": {
+        "corners": 9.3,
+        "home_corners": 4.7,
+        "away_corners": 4.5,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 24.5,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.2,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208394,
+      "home_team": "Fulham",
+      "away_team": "Manchester City",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.3697,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.3697,
+        "draw": 0.2629,
+        "away_win": 0.3673,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.62,
+        "away": 1.48,
+        "total": 3.11
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 1,
+        "away_shots": 4,
+        "away_corners": 6,
+        "total_corners": 7,
+        "total_shots": 6
+      },
+      "match_stats_pred": {
+        "corners": 10.2,
+        "home_corners": 5.1,
+        "away_corners": 5.0,
+        "cards": 4.6,
+        "home_cards": 2.3,
+        "away_cards": 2.4,
+        "fouls": 24.5,
+        "shots": 20.4,
+        "sot": 8.6,
+        "reds": 0.2,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208397,
+      "home_team": "Manchester United",
+      "away_team": "Aston Villa",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4757,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4757,
+        "draw": 0.2624,
+        "away_win": 0.2619,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.77,
+        "away": 1.17,
+        "total": 2.94
+      },
+      "actual_stats": {
+        "home_shots": 11,
+        "home_corners": 4,
+        "home_cards": 2,
+        "away_shots": 2,
+        "away_corners": 3,
+        "away_cards": 1,
+        "total_corners": 7,
+        "total_cards": 3,
+        "total_shots": 13
+      },
+      "match_stats_pred": {
+        "corners": 9.1,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.8,
+        "sot": 8.3,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208398,
+      "home_team": "Newcastle",
+      "away_team": "Everton",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.5113,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5113,
+        "draw": 0.2634,
+        "away_win": 0.2253,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.7,
+        "away": 1.0,
+        "total": 2.7
+      },
+      "actual_stats": {
+        "home_shots": 6,
+        "home_corners": 12,
+        "home_cards": 1,
+        "away_shots": 5,
+        "away_corners": 3,
+        "away_cards": 4,
+        "total_corners": 15,
+        "total_cards": 5,
+        "total_shots": 11
+      },
+      "match_stats_pred": {
+        "corners": 9.3,
+        "home_corners": 4.7,
+        "away_corners": 4.5,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208396,
+      "home_team": "Liverpool",
+      "away_team": "Crystal Palace",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.5572,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5572,
+        "draw": 0.2496,
+        "away_win": 0.1932,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.99,
+        "away": 1.02,
+        "total": 3.01
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 11,
+        "home_cards": 1,
+        "away_shots": 6,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 10.1,
+        "home_corners": 5.1,
+        "away_corners": 4.9,
+        "cards": 4.7,
+        "home_cards": 2.3,
+        "away_cards": 2.4,
+        "fouls": 25.0,
+        "shots": 20.5,
+        "sot": 8.6,
+        "reds": 0.24,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208393,
+      "home_team": "Bournemouth",
+      "away_team": "Leicester",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4895,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4895,
+        "draw": 0.2665,
+        "away_win": 0.244,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.65,
+        "away": 1.04,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 10,
+        "home_corners": 6,
+        "away_shots": 1,
+        "away_corners": 1,
+        "away_cards": 2,
+        "total_corners": 7,
+        "total_shots": 11
+      },
+      "match_stats_pred": {
+        "corners": 9.3,
+        "home_corners": 4.7,
+        "away_corners": 4.5,
+        "cards": 4.0,
+        "home_cards": 1.9,
+        "away_cards": 1.9,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1208401,
+      "home_team": "Tottenham",
+      "away_team": "Brighton",
+      "league": "Premier League",
+      "kickoff": "2025-05-25T15:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 4
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4875,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4875,
+        "draw": 0.2635,
+        "away_win": 0.249,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.73,
+        "away": 1.08,
+        "total": 2.81
+      },
+      "actual_stats": {
+        "home_shots": 4,
+        "home_corners": 2,
+        "home_cards": 3,
+        "away_shots": 5,
+        "away_corners": 11,
+        "away_cards": 1,
+        "total_corners": 13,
+        "total_cards": 4,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 9.4,
+        "home_corners": 4.8,
+        "away_corners": 4.6,
+        "cards": 4.0,
+        "home_cards": 1.9,
+        "away_cards": 1.9,
+        "fouls": 25.0,
+        "shots": 18.5,
+        "sot": 7.8,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223974,
+      "home_team": "Venezia",
+      "away_team": "Juventus",
+      "league": "Serie A",
+      "kickoff": "2025-05-25T18:45:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.3706,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.3706,
+        "draw": 0.2719,
+        "away_win": 0.3575,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.45,
+        "away": 1.22,
+        "total": 2.68
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 6,
+        "home_cards": 1,
+        "away_shots": 5,
+        "away_cards": 2,
+        "total_cards": 3,
+        "total_shots": 10
+      },
+      "match_stats_pred": {
+        "corners": 9.6,
+        "home_corners": 4.9,
+        "away_corners": 4.7,
+        "cards": 4.5,
+        "home_cards": 2.3,
+        "away_cards": 2.4,
+        "fouls": 24.5,
+        "shots": 20.2,
+        "sot": 8.1,
+        "reds": 0.2,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223972,
+      "home_team": "Torino",
+      "away_team": "AS Roma",
+      "league": "Serie A",
+      "kickoff": "2025-05-25T18:45:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4699,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4699,
+        "draw": 0.2681,
+        "away_win": 0.262,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.63,
+        "away": 1.08,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 6,
+        "home_corners": 2,
+        "home_cards": 1,
+        "away_shots": 4,
+        "away_corners": 1,
+        "total_corners": 3,
+        "total_shots": 10
+      },
+      "match_stats_pred": {
+        "corners": 8.8,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.2,
+        "home_cards": 2.1,
+        "away_cards": 2.1,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 7.6,
+        "reds": 0.24,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223973,
+      "home_team": "Udinese",
+      "away_team": "Fiorentina",
+      "league": "Serie A",
+      "kickoff": "2025-05-25T18:45:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4383,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4383,
+        "draw": 0.2713,
+        "away_win": 0.2904,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.59,
+        "away": 1.13,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 4,
+        "home_corners": 2,
+        "home_cards": 1,
+        "away_shots": 5,
+        "away_corners": 8,
+        "away_cards": 2,
+        "total_corners": 10,
+        "total_cards": 3,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 8.8,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 3.9,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 24.5,
+        "shots": 19.0,
+        "sot": 7.6,
+        "reds": 0.19,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223965,
+      "home_team": "Atalanta",
+      "away_team": "Parma",
+      "league": "Serie A",
+      "kickoff": "2025-05-25T18:45:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.5441,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5441,
+        "draw": 0.259,
+        "away_win": 0.197,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.76,
+        "away": 0.96,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 3,
+        "home_corners": 5,
+        "home_cards": 1,
+        "away_shots": 5,
+        "away_corners": 6,
+        "total_corners": 11,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 8.8,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.5,
+        "home_cards": 2.2,
+        "away_cards": 2.2,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 7.6,
+        "reds": 0.24,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223969,
+      "home_team": "Lazio",
+      "away_team": "Lecce",
+      "league": "Serie A",
+      "kickoff": "2025-05-25T18:45:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.5146,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5146,
+        "draw": 0.2611,
+        "away_win": 0.2244,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.75,
+        "away": 1.06,
+        "total": 2.81
+      },
+      "actual_stats": {
+        "home_shots": 8,
+        "home_corners": 14,
+        "home_cards": 1,
+        "away_shots": 3,
+        "away_corners": 4,
+        "away_cards": 2,
+        "total_corners": 18,
+        "total_cards": 3,
+        "total_shots": 11
+      },
+      "match_stats_pred": {
+        "corners": 9.6,
+        "home_corners": 4.9,
+        "away_corners": 4.7,
+        "cards": 4.5,
+        "home_cards": 2.3,
+        "away_cards": 2.4,
+        "fouls": 25.0,
+        "shots": 18.3,
+        "sot": 7.3,
+        "reds": 0.24,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223968,
+      "home_team": "Empoli",
+      "away_team": "Hellas Verona",
+      "league": "Serie A",
+      "kickoff": "2025-05-25T18:45:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4436,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4436,
+        "draw": 0.2708,
+        "away_win": 0.2856,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.59,
+        "away": 1.12,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 11,
+        "home_corners": 13,
+        "home_cards": 2,
+        "away_shots": 2,
+        "away_corners": 1,
+        "total_corners": 14,
+        "total_shots": 13
+      },
+      "match_stats_pred": {
+        "corners": 8.8,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 3.9,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 24.5,
+        "shots": 19.0,
+        "sot": 7.6,
+        "reds": 0.19,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223970,
+      "home_team": "AC Milan",
+      "away_team": "Monza",
+      "league": "Serie A",
+      "kickoff": "2025-05-24T18:45:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.538,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.538,
+        "draw": 0.2541,
+        "away_win": 0.2079,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.9,
+        "away": 1.02,
+        "total": 2.93
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 4,
+        "away_shots": 3,
+        "away_corners": 6,
+        "away_cards": 1,
+        "total_corners": 10,
+        "total_shots": 5
+      },
+      "match_stats_pred": {
+        "corners": 9.1,
+        "home_corners": 4.7,
+        "away_corners": 4.5,
+        "cards": 4.4,
+        "home_cards": 2.2,
+        "away_cards": 2.3,
+        "fouls": 25.0,
+        "shots": 19.6,
+        "sot": 7.8,
+        "reds": 0.24,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223966,
+      "home_team": "Bologna",
+      "away_team": "Genoa",
+      "league": "Serie A",
+      "kickoff": "2025-05-24T16:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4901,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4901,
+        "draw": 0.2658,
+        "away_win": 0.244,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.66,
+        "away": 1.05,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 7,
+        "home_corners": 13,
+        "home_cards": 5,
+        "away_shots": 2,
+        "away_corners": 1,
+        "away_cards": 2,
+        "total_corners": 14,
+        "total_cards": 7,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 8.8,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.0,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 7.6,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223971,
+      "home_team": "Napoli",
+      "away_team": "Cagliari",
+      "league": "Serie A",
+      "kickoff": "2025-05-23T18:45:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.5531,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5531,
+        "draw": 0.2491,
+        "away_win": 0.1978,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 2.02,
+        "away": 1.06,
+        "total": 3.08
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 8,
+        "home_cards": 2,
+        "away_shots": 2,
+        "away_corners": 3,
+        "away_cards": 1,
+        "total_corners": 11,
+        "total_cards": 3,
+        "total_shots": 4
+      },
+      "match_stats_pred": {
+        "corners": 10.1,
+        "home_corners": 5.2,
+        "away_corners": 5.0,
+        "cards": 4.7,
+        "home_cards": 2.4,
+        "away_cards": 2.5,
+        "fouls": 25.0,
+        "shots": 21.0,
+        "sot": 8.4,
+        "reds": 0.24,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1223967,
+      "home_team": "Como",
+      "away_team": "Inter",
+      "league": "Serie A",
+      "kickoff": "2025-05-23T18:45:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4277,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4277,
+        "draw": 0.2721,
+        "away_win": 0.3002,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.57,
+        "away": 1.15,
+        "total": 2.72
+      },
+      "actual_stats": {
+        "home_shots": 7,
+        "home_corners": 1,
+        "home_cards": 1,
+        "away_shots": 4,
+        "away_corners": 4,
+        "away_cards": 3,
+        "total_corners": 5,
+        "total_cards": 4,
+        "total_shots": 11
+      },
+      "match_stats_pred": {
+        "corners": 8.8,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.3,
+        "home_cards": 2.2,
+        "away_cards": 2.2,
+        "fouls": 24.5,
+        "shots": 19.0,
+        "sot": 7.6,
+        "reds": 0.2,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1375863,
+      "home_team": "SV Elversberg",
+      "away_team": "1. FC Heidenheim",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-26T18:30:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4641,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4641,
+        "draw": 0.2693,
+        "away_win": 0.2666,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.61,
+        "away": 1.08,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 3,
+        "home_cards": 1,
+        "away_shots": 4,
+        "away_corners": 2,
+        "away_cards": 3,
+        "total_corners": 5,
+        "total_cards": 4,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1375862,
+      "home_team": "1. FC Heidenheim",
+      "away_team": "SV Elversberg",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-22T18:30:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.4641,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4641,
+        "draw": 0.2693,
+        "away_win": 0.2666,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.61,
+        "away": 1.08,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 7,
+        "home_corners": 4,
+        "home_cards": 1,
+        "away_shots": 5,
+        "total_shots": 12
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224277,
+      "home_team": "FC Augsburg",
+      "away_team": "Union Berlin",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4693,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4693,
+        "draw": 0.2687,
+        "away_win": 0.262,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.62,
+        "away": 1.07,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 8,
+        "home_corners": 4,
+        "away_shots": 2,
+        "total_shots": 10
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.24,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224275,
+      "home_team": "1. FC Heidenheim",
+      "away_team": "Werder Bremen",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 4
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4641,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4641,
+        "draw": 0.2693,
+        "away_win": 0.2666,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.61,
+        "away": 1.08,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 11,
+        "home_corners": 6,
+        "home_cards": 3,
+        "away_shots": 2,
+        "away_corners": 4,
+        "away_cards": 2,
+        "total_corners": 10,
+        "total_cards": 5,
+        "total_shots": 13
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224274,
+      "home_team": "1899 Hoffenheim",
+      "away_team": "Bayern M\u00fcnchen",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 4
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4641,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4641,
+        "draw": 0.2693,
+        "away_win": 0.2666,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.61,
+        "away": 1.08,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 1,
+        "away_shots": 8,
+        "away_corners": 4,
+        "total_corners": 5,
+        "total_shots": 10
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.5,
+        "home_cards": 2.1,
+        "away_cards": 2.1,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.25,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224279,
+      "home_team": "Borussia M\u00f6nchengladbach",
+      "away_team": "VfL Wolfsburg",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4641,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4641,
+        "draw": 0.2693,
+        "away_win": 0.2666,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.61,
+        "away": 1.08,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 7,
+        "home_corners": 7,
+        "away_shots": 9,
+        "away_corners": 10,
+        "total_corners": 17,
+        "total_shots": 16
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224280,
+      "home_team": "FC St. Pauli",
+      "away_team": "VfL Bochum",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 0,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.5041,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5041,
+        "draw": 0.2648,
+        "away_win": 0.2312,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.67,
+        "away": 1.02,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 7,
+        "away_shots": 3,
+        "away_corners": 4,
+        "total_corners": 11,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.5,
+        "home_cards": 2.1,
+        "away_cards": 2.1,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.25,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224276,
+      "home_team": "SC Freiburg",
+      "away_team": "Eintracht Frankfurt",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4537,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4537,
+        "draw": 0.2704,
+        "away_win": 0.276,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.59,
+        "away": 1.1,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 1,
+        "home_corners": 4,
+        "home_cards": 2,
+        "away_shots": 2,
+        "away_corners": 7,
+        "away_cards": 4,
+        "total_corners": 11,
+        "total_cards": 6,
+        "total_shots": 3
+      },
+      "match_stats_pred": {
+        "corners": 9.0,
+        "home_corners": 4.6,
+        "away_corners": 4.4,
+        "cards": 4.4,
+        "home_cards": 2.1,
+        "away_cards": 2.1,
+        "fouls": 24.5,
+        "shots": 19.0,
+        "sot": 8.2,
+        "reds": 0.21,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224273,
+      "home_team": "Borussia Dortmund",
+      "away_team": "Holstein Kiel",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 3,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.5655,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5655,
+        "draw": 0.2475,
+        "away_win": 0.187,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.98,
+        "away": 0.97,
+        "total": 2.95
+      },
+      "actual_stats": {
+        "home_shots": 7,
+        "home_corners": 7,
+        "home_cards": 3,
+        "away_shots": 4,
+        "away_corners": 1,
+        "away_cards": 1,
+        "total_corners": 8,
+        "total_cards": 4,
+        "total_shots": 11
+      },
+      "match_stats_pred": {
+        "corners": 9.9,
+        "home_corners": 5.0,
+        "away_corners": 4.8,
+        "cards": 4.2,
+        "home_cards": 2.1,
+        "away_cards": 2.2,
+        "fouls": 25.0,
+        "shots": 19.8,
+        "sot": 8.5,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1224278,
+      "home_team": "FSV Mainz 05",
+      "away_team": "Bayer Leverkusen",
+      "league": "Bundesliga",
+      "kickoff": "2025-05-17T13:30:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.384,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.384,
+        "draw": 0.268,
+        "away_win": 0.3479,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.56,
+        "away": 1.31,
+        "total": 2.87
+      },
+      "actual_stats": {
+        "home_shots": 4,
+        "home_corners": 8,
+        "home_cards": 2,
+        "away_shots": 2,
+        "away_corners": 3,
+        "away_cards": 6,
+        "total_corners": 11,
+        "total_cards": 8,
+        "total_shots": 6
+      },
+      "match_stats_pred": {
+        "corners": 9.6,
+        "home_corners": 4.9,
+        "away_corners": 4.7,
+        "cards": 4.2,
+        "home_cards": 2.1,
+        "away_cards": 2.2,
+        "fouls": 24.5,
+        "shots": 20.1,
+        "sot": 8.6,
+        "reds": 0.19,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1375858,
+      "home_team": "Metz",
+      "away_team": "Reims",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-21T18:00:00+00:00",
+      "actual_score": {
+        "home": 1,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Draw",
+      "correct": false,
+      "confidence": 0.4744,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4744,
+        "draw": 0.2682,
+        "away_win": 0.2574,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.63,
+        "away": 1.07,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 3,
+        "home_corners": 6,
+        "home_cards": 1,
+        "away_shots": 6,
+        "away_cards": 3,
+        "total_cards": 4,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.0,
+        "home_cards": 1.9,
+        "away_cards": 1.9,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.22,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214048,
+      "home_team": "Lille",
+      "away_team": "Reims",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.5041,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5041,
+        "draw": 0.2648,
+        "away_win": 0.2312,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.67,
+        "away": 1.02,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 10,
+        "away_shots": 2,
+        "away_corners": 3,
+        "away_cards": 1,
+        "total_corners": 13,
+        "total_shots": 7
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.3,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214045,
+      "home_team": "Lyon",
+      "away_team": "Angers",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.5169,
+      "calibration_band": "50-60%",
+      "predicted_probs": {
+        "home_win": 0.5169,
+        "draw": 0.2634,
+        "away_win": 0.2197,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.69,
+        "away": 1.0,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 8,
+        "home_corners": 8,
+        "home_cards": 1,
+        "away_shots": 6,
+        "away_cards": 3,
+        "total_cards": 4,
+        "total_shots": 14
+      },
+      "match_stats_pred": {
+        "corners": 9.4,
+        "home_corners": 4.8,
+        "away_corners": 4.5,
+        "cards": 4.4,
+        "home_cards": 2.1,
+        "away_cards": 2.2,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214044,
+      "home_team": "Marseille",
+      "away_team": "Rennes",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 4,
+        "away": 2
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4926,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4926,
+        "draw": 0.2646,
+        "away_win": 0.2428,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.69,
+        "away": 1.06,
+        "total": 2.75
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 5,
+        "home_cards": 3,
+        "away_shots": 2,
+        "total_shots": 7
+      },
+      "match_stats_pred": {
+        "corners": 9.5,
+        "home_corners": 4.8,
+        "away_corners": 4.6,
+        "cards": 4.3,
+        "home_cards": 2.1,
+        "away_cards": 2.2,
+        "fouls": 25.0,
+        "shots": 18.7,
+        "sot": 7.9,
+        "reds": 0.22,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214050,
+      "home_team": "Nantes",
+      "away_team": "Montpellier",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 3,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4744,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4744,
+        "draw": 0.2682,
+        "away_win": 0.2574,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.63,
+        "away": 1.07,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 4,
+        "home_corners": 7,
+        "home_cards": 3,
+        "away_shots": 3,
+        "away_corners": 2,
+        "away_cards": 1,
+        "total_corners": 9,
+        "total_cards": 4,
+        "total_shots": 7
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.3,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214046,
+      "home_team": "Nice",
+      "away_team": "Stade Brestois 29",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 6,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4777,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4777,
+        "draw": 0.2666,
+        "away_win": 0.2558,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.65,
+        "away": 1.1,
+        "total": 2.76
+      },
+      "actual_stats": {
+        "home_shots": 3,
+        "home_corners": 5,
+        "away_shots": 7,
+        "away_corners": 2,
+        "away_cards": 5,
+        "total_corners": 7,
+        "total_shots": 10
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 18.6,
+        "sot": 7.8,
+        "reds": 0.22,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214049,
+      "home_team": "Strasbourg",
+      "away_team": "Le Havre",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4846,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4846,
+        "draw": 0.2671,
+        "away_win": 0.2484,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.64,
+        "away": 1.05,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 6,
+        "home_corners": 4,
+        "home_cards": 1,
+        "away_shots": 6,
+        "away_corners": 3,
+        "total_corners": 7,
+        "total_shots": 12
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.3,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.23,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214051,
+      "home_team": "Lens",
+      "away_team": "Monaco",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 4,
+        "away": 0
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4384,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4384,
+        "draw": 0.2718,
+        "away_win": 0.2898,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.58,
+        "away": 1.12,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 5,
+        "home_corners": 5,
+        "home_cards": 1,
+        "away_shots": 3,
+        "away_corners": 4,
+        "away_cards": 1,
+        "total_corners": 9,
+        "total_cards": 2,
+        "total_shots": 8
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.2,
+        "home_cards": 2.1,
+        "away_cards": 2.2,
+        "fouls": 24.5,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.2,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214052,
+      "home_team": "Paris Saint Germain",
+      "away_team": "Auxerre",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 3,
+        "away": 1
+      },
+      "predicted_result": "Home",
+      "actual_result": "Home",
+      "correct": true,
+      "confidence": 0.4944,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4944,
+        "draw": 0.2659,
+        "away_win": 0.2396,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.66,
+        "away": 1.04,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 2,
+        "home_corners": 5,
+        "home_cards": 1,
+        "away_shots": 4,
+        "away_corners": 2,
+        "away_cards": 2,
+        "total_corners": 7,
+        "total_cards": 3,
+        "total_shots": 6
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.22,
+        "profile": "moderate"
+      }
+    },
+    {
+      "fixture_id": 1214047,
+      "home_team": "Saint Etienne",
+      "away_team": "Toulouse",
+      "league": "Ligue 1",
+      "kickoff": "2025-05-17T19:00:00+00:00",
+      "actual_score": {
+        "home": 2,
+        "away": 3
+      },
+      "predicted_result": "Home",
+      "actual_result": "Away",
+      "correct": false,
+      "confidence": 0.4641,
+      "calibration_band": "<50%",
+      "predicted_probs": {
+        "home_win": 0.4641,
+        "draw": 0.2693,
+        "away_win": 0.2666,
+        "shrinkage_applied": true
+      },
+      "expected_goals": {
+        "home": 1.61,
+        "away": 1.08,
+        "total": 2.69
+      },
+      "actual_stats": {
+        "home_shots": 7,
+        "home_corners": 7,
+        "home_cards": 3,
+        "away_shots": 2,
+        "away_corners": 6,
+        "away_cards": 2,
+        "total_corners": 13,
+        "total_cards": 5,
+        "total_shots": 9
+      },
+      "match_stats_pred": {
+        "corners": 8.9,
+        "home_corners": 4.5,
+        "away_corners": 4.3,
+        "cards": 4.2,
+        "home_cards": 2.0,
+        "away_cards": 2.0,
+        "fouls": 25.0,
+        "shots": 19.0,
+        "sot": 8.0,
+        "reds": 0.22,
+        "profile": "moderate"
+      }
+    }
+  ]
+}

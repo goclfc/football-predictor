@@ -1,0 +1,336 @@
+{
+  "evaluation_method": "meta_prediction_synthesis",
+  "total_matches": 200,
+  "total_predictions": 2100,
+  "agents": {
+    "AttackingProfileAgent": {
+      "total_predictions": 100,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.7541,
+      "avg_confidence": 0.61,
+      "calibration": {
+        "0.6": {
+          "predicted": 0.6000000000000001,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "DefensiveProfileAgent": {
+      "total_predictions": 80,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.7258,
+      "avg_confidence": 0.547,
+      "calibration": {
+        "0.5": {
+          "predicted": 0.5,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "FatigueAgent": {
+      "total_predictions": 80,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.7047,
+      "avg_confidence": 0.508,
+      "calibration": {
+        "0.5": {
+          "predicted": 0.5,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "GoalkeeperAgent": {
+      "total_predictions": 120,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "InjuryAgent": {
+      "total_predictions": 160,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.6791,
+      "avg_confidence": 0.4675,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "KeyPlayerAgent": {
+      "total_predictions": 80,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "LineupAgent": {
+      "total_predictions": 180,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.6739,
+      "avg_confidence": 0.46,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "ManagerAgent": {
+      "total_predictions": 260,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "MediaPressureAgent": {
+      "total_predictions": 120,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "PlayerNewsAgent": {
+      "total_predictions": 80,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "RefereeAgent": {
+      "total_predictions": 120,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "RestDaysAgent": {
+      "total_predictions": 140,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "RivalryIntensityAgent": {
+      "total_predictions": 80,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "SetPieceAgent": {
+      "total_predictions": 100,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "StakesAgent": {
+      "total_predictions": 100,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.1541,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.6781,
+      "avg_confidence": 0.4594,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.111,
+          "count": 9
+        },
+        "0.5": {
+          "predicted": 0.5,
+          "actual": 0.182,
+          "count": 11
+        }
+      }
+    },
+    "TacticalAgent": {
+      "total_predictions": 60,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "VenueAgent": {
+      "total_predictions": 100,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    },
+    "WeatherAgent": {
+      "total_predictions": 140,
+      "synthesized_1x2_predictions": 20,
+      "accuracy": 0.15,
+      "confidence_weighted_accuracy": 0.15,
+      "by_league": {
+        "Premier League": 0.15
+      },
+      "roi": -0.625,
+      "avg_confidence": 0.4,
+      "calibration": {
+        "0.4": {
+          "predicted": 0.4,
+          "actual": 0.15,
+          "count": 20
+        }
+      }
+    }
+  }
+}

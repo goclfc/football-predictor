@@ -1,0 +1,80 @@
+{
+  "method": "direct_market_prediction_evaluation",
+  "timestamp": "2026-04-04T15:31:32.045483",
+  "total_matches": 200,
+  "total_predictions": 2100,
+  "agents": {
+    "AttackingProfileAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 100
+    },
+    "DefensiveProfileAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 80
+    },
+    "FatigueAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 80
+    },
+    "GoalkeeperAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 120
+    },
+    "InjuryAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 160
+    },
+    "KeyPlayerAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 80
+    },
+    "LineupAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 180
+    },
+    "ManagerAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 260
+    },
+    "MediaPressureAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 120
+    },
+    "PlayerNewsAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 80
+    },
+    "RefereeAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 120
+    },
+    "RestDaysAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 140
+    },
+    "RivalryIntensityAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 80
+    },
+    "SetPieceAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 100
+    },
+    "StakesAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 100
+    },
+    "TacticalAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 60
+    },
+    "VenueAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 100
+    },
+    "WeatherAgent": {
+      "status": "No direct market predictions",
+      "total_predictions": 140
+    }
+  }
+}

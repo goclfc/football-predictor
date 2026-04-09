@@ -1,0 +1,210 @@
+[
+  {
+    "home": "Valencia",
+    "away": "Celta Vigo",
+    "league": "La Liga",
+    "kickoff": "2026-04-05T14:15",
+    "odds": {
+      "home": 2.48,
+      "draw": 3.4,
+      "away": 3.35
+    },
+    "implied_prob": {
+      "home": 0.405,
+      "draw": 0.295,
+      "away": 0.3
+    },
+    "v5_prob": {
+      "home": 0.419,
+      "draw": 0.289,
+      "away": 0.293
+    },
+    "xg": {
+      "home": 1.15,
+      "away": 1.05
+    },
+    "predicted_score": "1-1",
+    "predicted_result": "Draw",
+    "top5_scores": [
+      [
+        "1-1",
+        13.4
+      ],
+      [
+        "1-0",
+        12.7
+      ],
+      [
+        "0-1",
+        11.6
+      ],
+      [
+        "0-0",
+        11.0
+      ],
+      [
+        "2-1",
+        7.7
+      ]
+    ],
+    "over25_prob": 37.9,
+    "btts_prob": 44.6,
+    "adjustments": []
+  },
+  {
+    "home": "Napoli",
+    "away": "AC Milan",
+    "league": "Serie A",
+    "kickoff": "2026-04-06T18:45",
+    "odds": {
+      "home": 2.58,
+      "draw": 3.11,
+      "away": 3.35
+    },
+    "implied_prob": {
+      "home": 0.385,
+      "draw": 0.319,
+      "away": 0.296
+    },
+    "v5_prob": {
+      "home": 0.365,
+      "draw": 0.33,
+      "away": 0.305
+    },
+    "xg": {
+      "home": 1.08,
+      "away": 1.03
+    },
+    "predicted_score": "1-1",
+    "predicted_result": "Draw",
+    "top5_scores": [
+      [
+        "1-1",
+        13.5
+      ],
+      [
+        "1-0",
+        13.1
+      ],
+      [
+        "0-1",
+        12.5
+      ],
+      [
+        "0-0",
+        12.2
+      ],
+      [
+        "2-1",
+        7.3
+      ]
+    ],
+    "over25_prob": 35.2,
+    "btts_prob": 42.4,
+    "adjustments": []
+  },
+  {
+    "home": "Oviedo",
+    "away": "Sevilla",
+    "league": "La Liga",
+    "kickoff": "2026-04-05T16:30",
+    "odds": {
+      "home": 2.88,
+      "draw": 3.05,
+      "away": 3.0
+    },
+    "implied_prob": {
+      "home": 0.344,
+      "draw": 0.325,
+      "away": 0.331
+    },
+    "v5_prob": {
+      "home": 0.314,
+      "draw": 0.327,
+      "away": 0.359
+    },
+    "xg": {
+      "home": 1.04,
+      "away": 1.08
+    },
+    "predicted_score": "1-1",
+    "predicted_result": "Draw",
+    "top5_scores": [
+      [
+        "1-1",
+        13.5
+      ],
+      [
+        "0-1",
+        13.0
+      ],
+      [
+        "1-0",
+        12.5
+      ],
+      [
+        "0-0",
+        12.1
+      ],
+      [
+        "1-2",
+        7.3
+      ]
+    ],
+    "over25_prob": 35.4,
+    "btts_prob": 42.6,
+    "adjustments": []
+  },
+  {
+    "home": "AS Monaco",
+    "away": "Marseille",
+    "league": "Ligue 1",
+    "kickoff": "2026-04-05T18:45",
+    "odds": {
+      "home": 2.22,
+      "draw": 3.85,
+      "away": 3.5
+    },
+    "implied_prob": {
+      "home": 0.452,
+      "draw": 0.261,
+      "away": 0.287
+    },
+    "v5_prob": {
+      "home": 0.458,
+      "draw": 0.267,
+      "away": 0.275
+    },
+    "xg": {
+      "home": 1.2,
+      "away": 1.06
+    },
+    "predicted_score": "1-1",
+    "predicted_result": "Draw",
+    "top5_scores": [
+      [
+        "1-1",
+        13.3
+      ],
+      [
+        "1-0",
+        12.5
+      ],
+      [
+        "0-1",
+        11.1
+      ],
+      [
+        "0-0",
+        10.5
+      ],
+      [
+        "2-1",
+        7.9
+      ]
+    ],
+    "over25_prob": 39.2,
+    "btts_prob": 45.5,
+    "adjustments": []
+  }
+]

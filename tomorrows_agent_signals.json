@@ -1,0 +1,1536 @@
+{
+  "Valencia vs Celta Vigo": {
+    "match": {
+      "home": "Valencia",
+      "away": "Celta Vigo",
+      "league": "La Liga",
+      "kickoff": "2026-04-05T14:15",
+      "odds": {
+        "home": 2.48,
+        "draw": 3.4,
+        "away": 3.35
+      },
+      "implied_prob": {
+        "home": 0.405,
+        "draw": 0.295,
+        "away": 0.3
+      },
+      "v5_prob": {
+        "home": 0.419,
+        "draw": 0.289,
+        "away": 0.293
+      },
+      "xg": {
+        "home": 1.15,
+        "away": 1.05
+      },
+      "predicted_score": "1-1",
+      "predicted_result": "Draw",
+      "top5_scores": [
+        [
+          "1-1",
+          13.4
+        ],
+        [
+          "1-0",
+          12.7
+        ],
+        [
+          "0-1",
+          11.6
+        ],
+        [
+          "0-0",
+          11.0
+        ],
+        [
+          "2-1",
+          7.7
+        ]
+      ],
+      "over25_prob": 37.9,
+      "btts_prob": 44.6,
+      "adjustments": []
+    },
+    "agents": {
+      "InjuryAgent": {
+        "predictions": {
+          "injury_impact_home": 0.06363636363636363,
+          "injury_impact_away": 0.06363636363636363,
+          "lineup_strength_home": 0.9618181818181818,
+          "lineup_strength_away": 0.9618181818181818,
+          "home_injuries": 1,
+          "away_injuries": 1,
+          "home_squad_depth": 0.6,
+          "away_squad_depth": 0.6
+        },
+        "confidence": 0.45,
+        "insights": [
+          "Valencia estimated ~1 players unavailable (minor)",
+          "Celta Vigo estimated ~1 players unavailable (minor)"
+        ],
+        "key_signal": "injury_impact_home: 0.06363636363636363"
+      },
+      "FatigueAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "KeyPlayerAgent": {
+        "predictions": {
+          "key_player_influence_home": 0.5,
+          "key_player_influence_away": 0.5,
+          "creative_edge": 0.0,
+          "goal_threat_rating": 0.5,
+          "home_key_players": [],
+          "away_key_players": []
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Player data sourced from live API \u2014 see lineup_analyst for details"
+        ],
+        "key_signal": "key_player_influence_home: 0.5"
+      },
+      "GoalkeeperAgent": {
+        "predictions": {
+          "gk_advantage": "Neutral - Similar GK quality",
+          "clean_sheet_adj_home": 0.308,
+          "clean_sheet_adj_away": 0.2975,
+          "penalty_factor_home": 0.25,
+          "penalty_factor_away": 0.25,
+          "home_gk_name": "Valencia GK",
+          "away_gk_name": "Celta Vigo GK",
+          "home_gk_rating": 80,
+          "away_gk_rating": 80
+        },
+        "confidence": 0.6,
+        "insights": [
+          "Valencia: Valencia GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)",
+          "Celta Vigo: Celta Vigo GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)"
+        ],
+        "key_signal": "gk_advantage: Neutral - Similar GK quality"
+      },
+      "TacticalAgent": {
+        "predictions": {
+          "tactical_edge": 0.0,
+          "possession_prediction": 0.5,
+          "pressing_winner": "neutral",
+          "formation_clash_score": 1.0,
+          "home_tactics": {
+            "formation": "4-3-3",
+            "style": "balanced",
+            "pressing_intensity": 6,
+            "defensive_line": "mid",
+            "build_up": "mixed",
+            "width": "wide"
+          },
+          "away_tactics": {
+            "formation": "4-3-3",
+            "style": "balanced",
+            "pressing_intensity": 6,
+            "defensive_line": "mid",
+            "build_up": "mixed",
+            "width": "wide"
+          }
+        },
+        "confidence": 0.7500000000000001,
+        "insights": [
+          "Home team plays balanced style with 4-3-3 formation",
+          "Away team plays balanced style with 4-3-3 formation",
+          "Tactical matchup advantage: Away (0.00)"
+        ],
+        "key_signal": "tactical_edge: 0.0"
+      },
+      "SetPieceAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "DefensiveProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "AttackingProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "StakesAgent": {
+        "predictions": {
+          "stakes_level_home": 9,
+          "stakes_level_away": 5,
+          "motivation_multiplier_home": 0.92,
+          "motivation_multiplier_away": 0.92,
+          "match_intensity_prediction": 9,
+          "stakes_type": "relegation_battle"
+        },
+        "confidence": 0.6,
+        "insights": [
+          "Valencia fighting relegation - desperation factor present",
+          "Both teams with little to play for - potential for cautious approach"
+        ],
+        "key_signal": "stakes_level_home: 9"
+      },
+      "RivalryIntensityAgent": {
+        "predictions": {
+          "rivalry_score": 0.3,
+          "card_multiplier": 1.0,
+          "atmosphere_intensity": 4,
+          "aggression_boost": 0.0,
+          "rivalry_name": "None"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Not a major recognized rivalry",
+          "Standard professional intensity expected",
+          "Normal disciplinary expectations"
+        ],
+        "key_signal": "rivalry_score: 0.3"
+      },
+      "RefereeAgent": {
+        "predictions": {
+          "expected_yellows": 4.4,
+          "expected_reds": 0.2,
+          "penalty_probability": 0.4,
+          "card_adjustment_factor": 1.2,
+          "referee_strictness": 9,
+          "referee_name": "Ricardo de Burgos Ben\u00edtez",
+          "home_bias_factor": 1.02
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Referee: Ricardo de Burgos Ben\u00edtez",
+          "Strictness level: 9/10 - expect tight match control",
+          "Expected yellow cards: 4.4"
+        ],
+        "key_signal": "expected_yellows: 4.4"
+      },
+      "VenueAgent": {
+        "predictions": {
+          "home_advantage_modifier": 1.046,
+          "pitch_factor": 1.0,
+          "atmosphere_rating": 4,
+          "travel_impact_away": 0.977,
+          "expected_attendance": 42900
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Venue: Mestalla (capacity: 55,000)",
+          "Expected attendance: 42,900",
+          "Pitch type: Standard grass"
+        ],
+        "key_signal": "home_advantage_modifier: 1.046"
+      },
+      "WeatherAgent": {
+        "predictions": {
+          "weather_impact": 0.0,
+          "conditions_description": "Dry conditions expected, 18\u00b0C, 11 km/h wind",
+          "tempo_adjustment": 1.0,
+          "goal_scoring_impact": 1.0,
+          "rain_probability": 0.15,
+          "wind_kmh": 11,
+          "avg_temp_celsius": 18,
+          "crossing_impact": 1.0
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Expected conditions: Dry conditions expected, 18\u00b0C, 11 km/h wind",
+          "Normal temperature conditions",
+          "Light wind conditions"
+        ],
+        "key_signal": "weather_impact: 0.0"
+      },
+      "MomentumAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "ManagerAgent": {
+        "predictions": {
+          "manager_advantage": "neutral",
+          "advantage_magnitude": 0.0,
+          "tactical_battle_winner": "even",
+          "in_game_adjustment_rating_home": 7,
+          "in_game_adjustment_rating_away": 9,
+          "home_manager": "Carlos Corber\u00e1n",
+          "away_manager": "Rafael Ben\u00edtez",
+          "home_pressing_intensity": "low",
+          "away_pressing_intensity": "medium",
+          "home_counter_attack_tendency": "high",
+          "away_counter_attack_tendency": "medium",
+          "home_youth_trust": "low",
+          "away_youth_trust": "low",
+          "home_sub_timing": "late",
+          "away_sub_timing": "normal",
+          "home_defensive_organization": 8,
+          "away_defensive_organization": 7,
+          "home_attacking_creativity": 4,
+          "away_attacking_creativity": 6,
+          "home_set_piece_coaching": 5,
+          "away_set_piece_coaching": 7,
+          "home_mental_resilience": 6,
+          "away_mental_resilience": 8,
+          "home_league_position_overperform": 0,
+          "away_league_position_overperform": 0,
+          "home_h2h_record_style": "defensive",
+          "away_h2h_record_style": "adaptive"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Home manager: Carlos Corber\u00e1n (8 years, 1 trophies)",
+          "Away manager: Rafael Ben\u00edtez (16 years, 10 trophies)",
+          "Tactical battle: Even, 4-3-3 vs 4-3-3"
+        ],
+        "key_signal": "manager_advantage: neutral"
+      },
+      "MediaPressureAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "RestDaysAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "LineupAgent": {
+        "predictions": {
+          "home_squad_size": 0,
+          "away_squad_size": 0,
+          "home_injuries_count": 0,
+          "away_injuries_count": 0,
+          "home_available_count": 0,
+          "away_available_count": 0,
+          "home_injury_impact": 0.0,
+          "away_injury_impact": 0.0,
+          "lineup_confirmed": false,
+          "lineup_source": "predicted",
+          "home_formation": "4-3-3",
+          "away_formation": "4-3-3",
+          "home_squad": [],
+          "away_squad": [],
+          "home_predicted_xi": [],
+          "away_predicted_xi": [],
+          "home_injuries": [],
+          "away_injuries": [],
+          "home_missing": [],
+          "away_missing": []
+        },
+        "confidence": 0.4,
+        "insights": [],
+        "key_signal": "home_squad_size: 0"
+      },
+      "PlayerNewsAgent": {
+        "predictions": {
+          "home_player_reports": [],
+          "away_player_reports": [],
+          "home_top_scorers": [],
+          "away_top_scorers": [],
+          "home_total_goals_top5": 0,
+          "away_total_goals_top5": 0,
+          "home_players_fetched": 0,
+          "away_players_fetched": 0
+        },
+        "confidence": 0.35,
+        "insights": [],
+        "key_signal": "home_player_reports: []"
+      },
+      "ScheduleContextAgent": {
+        "predictions": {
+          "home_recent_form_all_comps": "?????",
+          "away_recent_form_all_comps": "?????",
+          "home_recent_results": [],
+          "away_recent_results": [],
+          "home_schedule": [],
+          "away_schedule": []
+        },
+        "confidence": 0.75,
+        "insights": [
+          "Valencia recent form (all comps): ?????",
+          "Celta Vigo recent form (all comps): ?????"
+        ],
+        "key_signal": "home_recent_form_all_comps: ?????"
+      },
+      "HistoricalOddsAgent": {
+        "predictions": {
+          "h2h_odds_history": []
+        },
+        "confidence": 0.5,
+        "insights": [],
+        "key_signal": "h2h_odds_history: []"
+      }
+    }
+  },
+  "Napoli vs AC Milan": {
+    "match": {
+      "home": "Napoli",
+      "away": "AC Milan",
+      "league": "Serie A",
+      "kickoff": "2026-04-06T18:45",
+      "odds": {
+        "home": 2.58,
+        "draw": 3.11,
+        "away": 3.35
+      },
+      "implied_prob": {
+        "home": 0.385,
+        "draw": 0.319,
+        "away": 0.296
+      },
+      "v5_prob": {
+        "home": 0.365,
+        "draw": 0.33,
+        "away": 0.305
+      },
+      "xg": {
+        "home": 1.08,
+        "away": 1.03
+      },
+      "predicted_score": "1-1",
+      "predicted_result": "Draw",
+      "top5_scores": [
+        [
+          "1-1",
+          13.5
+        ],
+        [
+          "1-0",
+          13.1
+        ],
+        [
+          "0-1",
+          12.5
+        ],
+        [
+          "0-0",
+          12.2
+        ],
+        [
+          "2-1",
+          7.3
+        ]
+      ],
+      "over25_prob": 35.2,
+      "btts_prob": 42.4,
+      "adjustments": []
+    },
+    "agents": {
+      "InjuryAgent": {
+        "predictions": {
+          "injury_impact_home": 0.06363636363636363,
+          "injury_impact_away": 0.06363636363636363,
+          "lineup_strength_home": 0.9618181818181818,
+          "lineup_strength_away": 0.9618181818181818,
+          "home_injuries": 1,
+          "away_injuries": 1,
+          "home_squad_depth": 0.6,
+          "away_squad_depth": 0.6
+        },
+        "confidence": 0.45,
+        "insights": [
+          "Napoli estimated ~1 players unavailable (minor)",
+          "AC Milan estimated ~1 players unavailable (minor)"
+        ],
+        "key_signal": "injury_impact_home: 0.06363636363636363"
+      },
+      "FatigueAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "KeyPlayerAgent": {
+        "predictions": {
+          "key_player_influence_home": 0.5,
+          "key_player_influence_away": 0.5,
+          "creative_edge": 0.0,
+          "goal_threat_rating": 0.5,
+          "home_key_players": [],
+          "away_key_players": []
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Player data sourced from live API \u2014 see lineup_analyst for details"
+        ],
+        "key_signal": "key_player_influence_home: 0.5"
+      },
+      "GoalkeeperAgent": {
+        "predictions": {
+          "gk_advantage": "Neutral - Similar GK quality",
+          "clean_sheet_adj_home": 0.308,
+          "clean_sheet_adj_away": 0.2975,
+          "penalty_factor_home": 0.25,
+          "penalty_factor_away": 0.25,
+          "home_gk_name": "Napoli GK",
+          "away_gk_name": "AC Milan GK",
+          "home_gk_rating": 80,
+          "away_gk_rating": 80
+        },
+        "confidence": 0.6,
+        "insights": [
+          "Napoli: Napoli GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)",
+          "AC Milan: AC Milan GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)"
+        ],
+        "key_signal": "gk_advantage: Neutral - Similar GK quality"
+      },
+      "TacticalAgent": {
+        "predictions": {
+          "tactical_edge": 0.05,
+          "possession_prediction": 0.5833333333333334,
+          "pressing_winner": "neutral",
+          "formation_clash_score": 1.0,
+          "home_tactics": {
+            "formation": "4-3-3",
+            "style": "possession",
+            "pressing_intensity": 8,
+            "defensive_line": "high",
+            "build_up": "short",
+            "width": "wide"
+          },
+          "away_tactics": {
+            "formation": "4-2-3-1",
+            "style": "balanced",
+            "pressing_intensity": 7,
+            "defensive_line": "mid",
+            "build_up": "mixed",
+            "width": "wide"
+          }
+        },
+        "confidence": 0.7500000000000001,
+        "insights": [
+          "Home team plays possession style with 4-3-3 formation",
+          "Away team plays balanced style with 4-2-3-1 formation",
+          "Tactical matchup advantage: Home (0.05)"
+        ],
+        "key_signal": "tactical_edge: 0.05"
+      },
+      "SetPieceAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "DefensiveProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "AttackingProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "StakesAgent": {
+        "predictions": {
+          "stakes_level_home": 10,
+          "stakes_level_away": 10,
+          "motivation_multiplier_home": 1.12,
+          "motivation_multiplier_away": 1.12,
+          "match_intensity_prediction": 9,
+          "stakes_type": "cl_qualification"
+        },
+        "confidence": 0.6,
+        "insights": [
+          "Napoli chasing 4 position - strong motivation for European places",
+          "AC Milan top 4 team - high quality opposition expected"
+        ],
+        "key_signal": "stakes_level_home: 10"
+      },
+      "RivalryIntensityAgent": {
+        "predictions": {
+          "rivalry_score": 0.3,
+          "card_multiplier": 1.0,
+          "atmosphere_intensity": 4,
+          "aggression_boost": 0.0,
+          "rivalry_name": "None"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Not a major recognized rivalry",
+          "Standard professional intensity expected",
+          "Normal disciplinary expectations"
+        ],
+        "key_signal": "rivalry_score: 0.3"
+      },
+      "RefereeAgent": {
+        "predictions": {
+          "expected_yellows": 4.1,
+          "expected_reds": 0.17,
+          "penalty_probability": 0.34,
+          "card_adjustment_factor": 1.1,
+          "referee_strictness": 8,
+          "referee_name": "Marco Guida",
+          "home_bias_factor": 1.01
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Referee: Marco Guida",
+          "Strictness level: 8/10 - expect tight match control",
+          "Expected yellow cards: 4.1"
+        ],
+        "key_signal": "expected_yellows: 4.1"
+      },
+      "VenueAgent": {
+        "predictions": {
+          "home_advantage_modifier": 1.052,
+          "pitch_factor": 1.0,
+          "atmosphere_rating": 5,
+          "travel_impact_away": 0.974,
+          "expected_attendance": 44328
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Venue: San Paolo (capacity: 54,726)",
+          "Expected attendance: 44,328",
+          "Pitch type: Standard grass"
+        ],
+        "key_signal": "home_advantage_modifier: 1.052"
+      },
+      "WeatherAgent": {
+        "predictions": {
+          "weather_impact": 0.0,
+          "conditions_description": "Dry conditions expected, 17\u00b0C, 10 km/h wind",
+          "tempo_adjustment": 1.0,
+          "goal_scoring_impact": 1.0,
+          "rain_probability": 0.18,
+          "wind_kmh": 10,
+          "avg_temp_celsius": 17,
+          "crossing_impact": 1.0
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Expected conditions: Dry conditions expected, 17\u00b0C, 10 km/h wind",
+          "Normal temperature conditions",
+          "Light wind conditions"
+        ],
+        "key_signal": "weather_impact: 0.0"
+      },
+      "MomentumAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "ManagerAgent": {
+        "predictions": {
+          "manager_advantage": "neutral",
+          "advantage_magnitude": 0.0,
+          "tactical_battle_winner": "home",
+          "in_game_adjustment_rating_home": 9,
+          "in_game_adjustment_rating_away": 9,
+          "home_manager": "Antonio Conte",
+          "away_manager": "Paulo Fonseca",
+          "home_pressing_intensity": "medium",
+          "away_pressing_intensity": "high",
+          "home_counter_attack_tendency": "medium",
+          "away_counter_attack_tendency": "high",
+          "home_youth_trust": "low",
+          "away_youth_trust": "medium",
+          "home_sub_timing": "late",
+          "away_sub_timing": "normal",
+          "home_defensive_organization": 8,
+          "away_defensive_organization": 7,
+          "home_attacking_creativity": 7,
+          "away_attacking_creativity": 7,
+          "home_set_piece_coaching": 8,
+          "away_set_piece_coaching": 6,
+          "home_mental_resilience": 9,
+          "away_mental_resilience": 7,
+          "home_league_position_overperform": 0,
+          "away_league_position_overperform": 0,
+          "home_h2h_record_style": "aggressive",
+          "away_h2h_record_style": "adaptive"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Home manager: Antonio Conte (17 years, 14 trophies)",
+          "Away manager: Paulo Fonseca (10 years, 3 trophies)",
+          "Tactical battle: Home, 3-5-2 vs 4-2-3-1"
+        ],
+        "key_signal": "manager_advantage: neutral"
+      },
+      "MediaPressureAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "RestDaysAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "LineupAgent": {
+        "predictions": {
+          "home_squad_size": 0,
+          "away_squad_size": 0,
+          "home_injuries_count": 0,
+          "away_injuries_count": 0,
+          "home_available_count": 0,
+          "away_available_count": 0,
+          "home_injury_impact": 0.0,
+          "away_injury_impact": 0.0,
+          "lineup_confirmed": false,
+          "lineup_source": "predicted",
+          "home_formation": "4-3-3",
+          "away_formation": "4-3-3",
+          "home_squad": [],
+          "away_squad": [],
+          "home_predicted_xi": [],
+          "away_predicted_xi": [],
+          "home_injuries": [],
+          "away_injuries": [],
+          "home_missing": [],
+          "away_missing": []
+        },
+        "confidence": 0.4,
+        "insights": [],
+        "key_signal": "home_squad_size: 0"
+      },
+      "PlayerNewsAgent": {
+        "predictions": {
+          "home_player_reports": [],
+          "away_player_reports": [],
+          "home_top_scorers": [],
+          "away_top_scorers": [],
+          "home_total_goals_top5": 0,
+          "away_total_goals_top5": 0,
+          "home_players_fetched": 0,
+          "away_players_fetched": 0
+        },
+        "confidence": 0.35,
+        "insights": [],
+        "key_signal": "home_player_reports: []"
+      },
+      "ScheduleContextAgent": {
+        "predictions": {
+          "home_recent_form_all_comps": "?????",
+          "away_recent_form_all_comps": "?????",
+          "home_recent_results": [],
+          "away_recent_results": [],
+          "home_schedule": [],
+          "away_schedule": []
+        },
+        "confidence": 0.75,
+        "insights": [
+          "Napoli recent form (all comps): ?????",
+          "AC Milan recent form (all comps): ?????"
+        ],
+        "key_signal": "home_recent_form_all_comps: ?????"
+      },
+      "HistoricalOddsAgent": {
+        "predictions": {
+          "h2h_odds_history": []
+        },
+        "confidence": 0.5,
+        "insights": [],
+        "key_signal": "h2h_odds_history: []"
+      }
+    }
+  },
+  "Oviedo vs Sevilla": {
+    "match": {
+      "home": "Oviedo",
+      "away": "Sevilla",
+      "league": "La Liga",
+      "kickoff": "2026-04-05T16:30",
+      "odds": {
+        "home": 2.88,
+        "draw": 3.05,
+        "away": 3.0
+      },
+      "implied_prob": {
+        "home": 0.344,
+        "draw": 0.325,
+        "away": 0.331
+      },
+      "v5_prob": {
+        "home": 0.314,
+        "draw": 0.327,
+        "away": 0.359
+      },
+      "xg": {
+        "home": 1.04,
+        "away": 1.08
+      },
+      "predicted_score": "1-1",
+      "predicted_result": "Draw",
+      "top5_scores": [
+        [
+          "1-1",
+          13.5
+        ],
+        [
+          "0-1",
+          13.0
+        ],
+        [
+          "1-0",
+          12.5
+        ],
+        [
+          "0-0",
+          12.1
+        ],
+        [
+          "1-2",
+          7.3
+        ]
+      ],
+      "over25_prob": 35.4,
+      "btts_prob": 42.6,
+      "adjustments": []
+    },
+    "agents": {
+      "InjuryAgent": {
+        "predictions": {
+          "injury_impact_home": 0.06363636363636363,
+          "injury_impact_away": 0.06363636363636363,
+          "lineup_strength_home": 0.9618181818181818,
+          "lineup_strength_away": 0.9618181818181818,
+          "home_injuries": 1,
+          "away_injuries": 1,
+          "home_squad_depth": 0.6,
+          "away_squad_depth": 0.6
+        },
+        "confidence": 0.45,
+        "insights": [
+          "Oviedo estimated ~1 players unavailable (minor)",
+          "Sevilla estimated ~1 players unavailable (minor)"
+        ],
+        "key_signal": "injury_impact_home: 0.06363636363636363"
+      },
+      "FatigueAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "KeyPlayerAgent": {
+        "predictions": {
+          "key_player_influence_home": 0.5,
+          "key_player_influence_away": 0.5,
+          "creative_edge": 0.0,
+          "goal_threat_rating": 0.5,
+          "home_key_players": [],
+          "away_key_players": []
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Player data sourced from live API \u2014 see lineup_analyst for details"
+        ],
+        "key_signal": "key_player_influence_home: 0.5"
+      },
+      "GoalkeeperAgent": {
+        "predictions": {
+          "gk_advantage": "Neutral - Similar GK quality",
+          "clean_sheet_adj_home": 0.308,
+          "clean_sheet_adj_away": 0.2975,
+          "penalty_factor_home": 0.25,
+          "penalty_factor_away": 0.25,
+          "home_gk_name": "Oviedo GK",
+          "away_gk_name": "Sevilla GK",
+          "home_gk_rating": 80,
+          "away_gk_rating": 80
+        },
+        "confidence": 0.6,
+        "insights": [
+          "Oviedo: Oviedo GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)",
+          "Sevilla: Sevilla GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)"
+        ],
+        "key_signal": "gk_advantage: Neutral - Similar GK quality"
+      },
+      "TacticalAgent": {
+        "predictions": {
+          "tactical_edge": 0.0,
+          "possession_prediction": 0.5,
+          "pressing_winner": "neutral",
+          "formation_clash_score": 1.0,
+          "home_tactics": {
+            "formation": "4-3-3",
+            "style": "balanced",
+            "pressing_intensity": 6,
+            "defensive_line": "mid",
+            "build_up": "mixed",
+            "width": "wide"
+          },
+          "away_tactics": {
+            "formation": "4-3-3",
+            "style": "balanced",
+            "pressing_intensity": 7,
+            "defensive_line": "mid",
+            "build_up": "mixed",
+            "width": "wide"
+          }
+        },
+        "confidence": 0.7500000000000001,
+        "insights": [
+          "Home team plays balanced style with 4-3-3 formation",
+          "Away team plays balanced style with 4-3-3 formation",
+          "Tactical matchup advantage: Away (0.00)"
+        ],
+        "key_signal": "tactical_edge: 0.0"
+      },
+      "SetPieceAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "DefensiveProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "AttackingProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "StakesAgent": {
+        "predictions": {
+          "stakes_level_home": 5,
+          "stakes_level_away": 5,
+          "motivation_multiplier_home": 0.92,
+          "motivation_multiplier_away": 0.92,
+          "match_intensity_prediction": 5,
+          "stakes_type": "mid_table"
+        },
+        "confidence": 0.6,
+        "insights": [
+          "Both teams with little to play for - potential for cautious approach"
+        ],
+        "key_signal": "stakes_level_home: 5"
+      },
+      "RivalryIntensityAgent": {
+        "predictions": {
+          "rivalry_score": 0.3,
+          "card_multiplier": 1.0,
+          "atmosphere_intensity": 4,
+          "aggression_boost": 0.0,
+          "rivalry_name": "None"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Not a major recognized rivalry",
+          "Standard professional intensity expected",
+          "Normal disciplinary expectations"
+        ],
+        "key_signal": "rivalry_score: 0.3"
+      },
+      "RefereeAgent": {
+        "predictions": {
+          "expected_yellows": 3.8,
+          "expected_reds": 0.15,
+          "penalty_probability": 0.3,
+          "card_adjustment_factor": 1.0,
+          "referee_strictness": 7,
+          "referee_name": "Xavier Estrada Fern\u00e1ndez",
+          "home_bias_factor": 1.0
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Referee: Xavier Estrada Fern\u00e1ndez",
+          "Strictness level: 7/10 - expect moderate match control",
+          "Expected yellow cards: 3.8"
+        ],
+        "key_signal": "expected_yellows: 3.8"
+      },
+      "VenueAgent": {
+        "predictions": {
+          "home_advantage_modifier": 1.06,
+          "pitch_factor": 1.0,
+          "atmosphere_rating": 5,
+          "travel_impact_away": 0.97,
+          "expected_attendance": 42500
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Venue: Oviedo Stadium (capacity: 50,000)",
+          "Expected attendance: 42,500",
+          "Pitch type: Standard grass"
+        ],
+        "key_signal": "home_advantage_modifier: 1.06"
+      },
+      "WeatherAgent": {
+        "predictions": {
+          "weather_impact": 0.0,
+          "conditions_description": "Dry conditions expected, 18\u00b0C, 11 km/h wind",
+          "tempo_adjustment": 1.0,
+          "goal_scoring_impact": 1.0,
+          "rain_probability": 0.15,
+          "wind_kmh": 11,
+          "avg_temp_celsius": 18,
+          "crossing_impact": 1.0
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Expected conditions: Dry conditions expected, 18\u00b0C, 11 km/h wind",
+          "Normal temperature conditions",
+          "Light wind conditions"
+        ],
+        "key_signal": "weather_impact: 0.0"
+      },
+      "MomentumAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "ManagerAgent": {
+        "predictions": {
+          "manager_advantage": "neutral",
+          "advantage_magnitude": 0.0,
+          "tactical_battle_winner": "even",
+          "in_game_adjustment_rating_home": 6,
+          "in_game_adjustment_rating_away": 7,
+          "home_manager": "Unknown Manager",
+          "away_manager": "Garc\u00eda Pimienta",
+          "home_pressing_intensity": "medium",
+          "away_pressing_intensity": "medium",
+          "home_counter_attack_tendency": "medium",
+          "away_counter_attack_tendency": "medium",
+          "home_youth_trust": "low",
+          "away_youth_trust": "medium",
+          "home_sub_timing": "normal",
+          "away_sub_timing": "normal",
+          "home_defensive_organization": 6,
+          "away_defensive_organization": 6,
+          "home_attacking_creativity": 5,
+          "away_attacking_creativity": 5,
+          "home_set_piece_coaching": 5,
+          "away_set_piece_coaching": 6,
+          "home_mental_resilience": 6,
+          "away_mental_resilience": 6,
+          "home_league_position_overperform": 0,
+          "away_league_position_overperform": 0,
+          "home_h2h_record_style": "adaptive",
+          "away_h2h_record_style": "defensive"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Home manager: Unknown Manager (5 years, 1 trophies)",
+          "Away manager: Garc\u00eda Pimienta (8 years, 2 trophies)",
+          "Tactical battle: Even, 4-3-3 vs 4-3-3"
+        ],
+        "key_signal": "manager_advantage: neutral"
+      },
+      "MediaPressureAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "RestDaysAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "LineupAgent": {
+        "predictions": {
+          "home_squad_size": 0,
+          "away_squad_size": 0,
+          "home_injuries_count": 0,
+          "away_injuries_count": 0,
+          "home_available_count": 0,
+          "away_available_count": 0,
+          "home_injury_impact": 0.0,
+          "away_injury_impact": 0.0,
+          "lineup_confirmed": false,
+          "lineup_source": "predicted",
+          "home_formation": "4-3-3",
+          "away_formation": "4-3-3",
+          "home_squad": [],
+          "away_squad": [],
+          "home_predicted_xi": [],
+          "away_predicted_xi": [],
+          "home_injuries": [],
+          "away_injuries": [],
+          "home_missing": [],
+          "away_missing": []
+        },
+        "confidence": 0.4,
+        "insights": [],
+        "key_signal": "home_squad_size: 0"
+      },
+      "PlayerNewsAgent": {
+        "predictions": {
+          "home_player_reports": [],
+          "away_player_reports": [],
+          "home_top_scorers": [],
+          "away_top_scorers": [],
+          "home_total_goals_top5": 0,
+          "away_total_goals_top5": 0,
+          "home_players_fetched": 0,
+          "away_players_fetched": 0
+        },
+        "confidence": 0.35,
+        "insights": [],
+        "key_signal": "home_player_reports: []"
+      },
+      "ScheduleContextAgent": {
+        "predictions": {
+          "home_recent_form_all_comps": "?????",
+          "away_recent_form_all_comps": "?????",
+          "home_recent_results": [],
+          "away_recent_results": [],
+          "home_schedule": [],
+          "away_schedule": []
+        },
+        "confidence": 0.75,
+        "insights": [
+          "Oviedo recent form (all comps): ?????",
+          "Sevilla recent form (all comps): ?????"
+        ],
+        "key_signal": "home_recent_form_all_comps: ?????"
+      },
+      "HistoricalOddsAgent": {
+        "predictions": {
+          "h2h_odds_history": []
+        },
+        "confidence": 0.5,
+        "insights": [],
+        "key_signal": "h2h_odds_history: []"
+      }
+    }
+  },
+  "AS Monaco vs Marseille": {
+    "match": {
+      "home": "AS Monaco",
+      "away": "Marseille",
+      "league": "Ligue 1",
+      "kickoff": "2026-04-05T18:45",
+      "odds": {
+        "home": 2.22,
+        "draw": 3.85,
+        "away": 3.5
+      },
+      "implied_prob": {
+        "home": 0.452,
+        "draw": 0.261,
+        "away": 0.287
+      },
+      "v5_prob": {
+        "home": 0.458,
+        "draw": 0.267,
+        "away": 0.275
+      },
+      "xg": {
+        "home": 1.2,
+        "away": 1.06
+      },
+      "predicted_score": "1-1",
+      "predicted_result": "Draw",
+      "top5_scores": [
+        [
+          "1-1",
+          13.3
+        ],
+        [
+          "1-0",
+          12.5
+        ],
+        [
+          "0-1",
+          11.1
+        ],
+        [
+          "0-0",
+          10.5
+        ],
+        [
+          "2-1",
+          7.9
+        ]
+      ],
+      "over25_prob": 39.2,
+      "btts_prob": 45.5,
+      "adjustments": []
+    },
+    "agents": {
+      "InjuryAgent": {
+        "predictions": {
+          "injury_impact_home": 0.06363636363636363,
+          "injury_impact_away": 0.06363636363636363,
+          "lineup_strength_home": 0.9618181818181818,
+          "lineup_strength_away": 0.9618181818181818,
+          "home_injuries": 1,
+          "away_injuries": 1,
+          "home_squad_depth": 0.6,
+          "away_squad_depth": 0.6
+        },
+        "confidence": 0.45,
+        "insights": [
+          "AS Monaco estimated ~1 players unavailable (minor)",
+          "Marseille estimated ~1 players unavailable (minor)"
+        ],
+        "key_signal": "injury_impact_home: 0.06363636363636363"
+      },
+      "FatigueAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "KeyPlayerAgent": {
+        "predictions": {
+          "key_player_influence_home": 0.5,
+          "key_player_influence_away": 0.5,
+          "creative_edge": 0.0,
+          "goal_threat_rating": 0.5,
+          "home_key_players": [],
+          "away_key_players": []
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Player data sourced from live API \u2014 see lineup_analyst for details"
+        ],
+        "key_signal": "key_player_influence_home: 0.5"
+      },
+      "GoalkeeperAgent": {
+        "predictions": {
+          "gk_advantage": "Neutral - Similar GK quality",
+          "clean_sheet_adj_home": 0.308,
+          "clean_sheet_adj_away": 0.2975,
+          "penalty_factor_home": 0.25,
+          "penalty_factor_away": 0.25,
+          "home_gk_name": "AS Monaco GK",
+          "away_gk_name": "Marseille GK",
+          "home_gk_rating": 80,
+          "away_gk_rating": 80
+        },
+        "confidence": 0.6,
+        "insights": [
+          "AS Monaco: AS Monaco GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)",
+          "Marseille: Marseille GK (Saving: 7/10, Distribution: 7/10, Clean sheet rate: 35.0%)"
+        ],
+        "key_signal": "gk_advantage: Neutral - Similar GK quality"
+      },
+      "TacticalAgent": {
+        "predictions": {
+          "tactical_edge": 0.0,
+          "possession_prediction": 0.5,
+          "pressing_winner": "neutral",
+          "formation_clash_score": 1.0,
+          "home_tactics": {
+            "formation": "4-4-2",
+            "style": "counter_attack",
+            "pressing_intensity": 6,
+            "defensive_line": "low",
+            "build_up": "long",
+            "width": "wide"
+          },
+          "away_tactics": {
+            "formation": "4-2-3-1",
+            "style": "counter_attack",
+            "pressing_intensity": 7,
+            "defensive_line": "mid",
+            "build_up": "long",
+            "width": "wide"
+          }
+        },
+        "confidence": 0.7500000000000001,
+        "insights": [
+          "Home team plays counter_attack style with 4-4-2 formation",
+          "Away team plays counter_attack style with 4-2-3-1 formation",
+          "Tactical matchup advantage: Away (0.00)"
+        ],
+        "key_signal": "tactical_edge: 0.0"
+      },
+      "SetPieceAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "DefensiveProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "AttackingProfileAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "StakesAgent": {
+        "predictions": {
+          "stakes_level_home": 5,
+          "stakes_level_away": 10,
+          "motivation_multiplier_home": 1.0,
+          "motivation_multiplier_away": 1.12,
+          "match_intensity_prediction": 9,
+          "stakes_type": "mid_table"
+        },
+        "confidence": 0.6,
+        "insights": [
+          "Marseille top 4 team - high quality opposition expected"
+        ],
+        "key_signal": "stakes_level_home: 5"
+      },
+      "RivalryIntensityAgent": {
+        "predictions": {
+          "rivalry_score": 0.3,
+          "card_multiplier": 1.0,
+          "atmosphere_intensity": 4,
+          "aggression_boost": 0.0,
+          "rivalry_name": "None"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Not a major recognized rivalry",
+          "Standard professional intensity expected",
+          "Normal disciplinary expectations"
+        ],
+        "key_signal": "rivalry_score: 0.3"
+      },
+      "RefereeAgent": {
+        "predictions": {
+          "expected_yellows": 3.9,
+          "expected_reds": 0.15,
+          "penalty_probability": 0.31,
+          "card_adjustment_factor": 1.0,
+          "referee_strictness": 7,
+          "referee_name": "Beno\u00eet Bastien",
+          "home_bias_factor": 1.0
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Referee: Beno\u00eet Bastien",
+          "Strictness level: 7/10 - expect moderate match control",
+          "Expected yellow cards: 3.9"
+        ],
+        "key_signal": "expected_yellows: 3.9"
+      },
+      "VenueAgent": {
+        "predictions": {
+          "home_advantage_modifier": 1.06,
+          "pitch_factor": 1.0,
+          "atmosphere_rating": 5,
+          "travel_impact_away": 0.97,
+          "expected_attendance": 42500
+        },
+        "confidence": 0.5,
+        "insights": [
+          "Venue: AS Monaco Stadium (capacity: 50,000)",
+          "Expected attendance: 42,500",
+          "Pitch type: Standard grass"
+        ],
+        "key_signal": "home_advantage_modifier: 1.06"
+      },
+      "WeatherAgent": {
+        "predictions": {
+          "weather_impact": -0.017,
+          "conditions_description": "Moderate rain probable, 14\u00b0C, 12 km/h wind",
+          "tempo_adjustment": 1.0,
+          "goal_scoring_impact": 0.95,
+          "rain_probability": 0.28,
+          "wind_kmh": 12,
+          "avg_temp_celsius": 14,
+          "crossing_impact": 1.0
+        },
+        "confidence": 0.4,
+        "insights": [
+          "Expected conditions: Moderate rain probable, 14\u00b0C, 12 km/h wind",
+          "Normal temperature conditions",
+          "Light wind conditions"
+        ],
+        "key_signal": "weather_impact: -0.017"
+      },
+      "MomentumAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "ManagerAgent": {
+        "predictions": {
+          "manager_advantage": "neutral",
+          "advantage_magnitude": 0.0,
+          "tactical_battle_winner": "even",
+          "in_game_adjustment_rating_home": 9,
+          "in_game_adjustment_rating_away": 6,
+          "home_manager": "Adi H\u00fctter",
+          "away_manager": "Unknown Manager",
+          "home_pressing_intensity": "medium",
+          "away_pressing_intensity": "medium",
+          "home_counter_attack_tendency": "high",
+          "away_counter_attack_tendency": "medium",
+          "home_youth_trust": "medium",
+          "away_youth_trust": "low",
+          "home_sub_timing": "normal",
+          "away_sub_timing": "normal",
+          "home_defensive_organization": 6,
+          "away_defensive_organization": 6,
+          "home_attacking_creativity": 6,
+          "away_attacking_creativity": 5,
+          "home_set_piece_coaching": 5,
+          "away_set_piece_coaching": 5,
+          "home_mental_resilience": 6,
+          "away_mental_resilience": 6,
+          "home_league_position_overperform": 0,
+          "away_league_position_overperform": 0,
+          "home_h2h_record_style": "adaptive",
+          "away_h2h_record_style": "adaptive"
+        },
+        "confidence": 0.55,
+        "insights": [
+          "Home manager: Adi H\u00fctter (10 years, 3 trophies)",
+          "Away manager: Unknown Manager (5 years, 1 trophies)",
+          "Tactical battle: Even, 4-4-2 vs 4-3-3"
+        ],
+        "key_signal": "manager_advantage: neutral"
+      },
+      "MediaPressureAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "RestDaysAgent": {
+        "predictions": {},
+        "confidence": 0,
+        "insights": [
+          "'list' object has no attribute 'get'"
+        ],
+        "key_signal": "ERROR"
+      },
+      "LineupAgent": {
+        "predictions": {
+          "home_squad_size": 0,
+          "away_squad_size": 0,
+          "home_injuries_count": 0,
+          "away_injuries_count": 0,
+          "home_available_count": 0,
+          "away_available_count": 0,
+          "home_injury_impact": 0.0,
+          "away_injury_impact": 0.0,
+          "lineup_confirmed": false,
+          "lineup_source": "predicted",
+          "home_formation": "4-3-3",
+          "away_formation": "4-3-3",
+          "home_squad": [],
+          "away_squad": [],
+          "home_predicted_xi": [],
+          "away_predicted_xi": [],
+          "home_injuries": [],
+          "away_injuries": [],
+          "home_missing": [],
+          "away_missing": []
+        },
+        "confidence": 0.4,
+        "insights": [],
+        "key_signal": "home_squad_size: 0"
+      },
+      "PlayerNewsAgent": {
+        "predictions": {
+          "home_player_reports": [],
+          "away_player_reports": [],
+          "home_top_scorers": [],
+          "away_top_scorers": [],
+          "home_total_goals_top5": 0,
+          "away_total_goals_top5": 0,
+          "home_players_fetched": 0,
+          "away_players_fetched": 0
+        },
+        "confidence": 0.35,
+        "insights": [],
+        "key_signal": "home_player_reports: []"
+      },
+      "ScheduleContextAgent": {
+        "predictions": {
+          "home_recent_form_all_comps": "?????",
+          "away_recent_form_all_comps": "?????",
+          "home_recent_results": [],
+          "away_recent_results": [],
+          "home_schedule": [],
+          "away_schedule": []
+        },
+        "confidence": 0.75,
+        "insights": [
+          "AS Monaco recent form (all comps): ?????",
+          "Marseille recent form (all comps): ?????"
+        ],
+        "key_signal": "home_recent_form_all_comps: ?????"
+      },
+      "HistoricalOddsAgent": {
+        "predictions": {
+          "h2h_odds_history": []
+        },
+        "confidence": 0.5,
+        "insights": [],
+        "key_signal": "h2h_odds_history: []"
+      }
+    }
+  }
+}

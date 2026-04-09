@@ -1,0 +1,6806 @@
+{
+  "Valencia vs Celta Vigo": {
+    "fixture": {
+      "fixture": {
+        "id": 1391118,
+        "referee": "I. Galech",
+        "timezone": "UTC",
+        "date": "2026-04-05T14:15:00+00:00",
+        "timestamp": 1775398500,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 1497,
+          "name": "Estadio de Mestalla",
+          "city": "Valencia"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2025,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png",
+          "winner": null
+        },
+        "away": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    "home_id": 532,
+    "away_id": 538,
+    "home_stats": {
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 532,
+        "name": "Valencia",
+        "logo": "https://media.api-sports.io/football/teams/532.png"
+      },
+      "form": "DLWLWDLLDLLDWDDLDLDWWLLWLWWLW",
+      "fixtures": {
+        "played": {
+          "home": 14,
+          "away": 15,
+          "total": 29
+        },
+        "wins": {
+          "home": 6,
+          "away": 3,
+          "total": 9
+        },
+        "draws": {
+          "home": 5,
+          "away": 3,
+          "total": 8
+        },
+        "loses": {
+          "home": 3,
+          "away": 9,
+          "total": 12
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 19,
+            "away": 13,
+            "total": 32
+          },
+          "average": {
+            "home": "1.4",
+            "away": "0.9",
+            "total": "1.1"
+          },
+          "minute": {
+            "0-15": {
+              "total": 3,
+              "percentage": "8.82%"
+            },
+            "16-30": {
+              "total": 3,
+              "percentage": "8.82%"
+            },
+            "31-45": {
+              "total": 2,
+              "percentage": "5.88%"
+            },
+            "46-60": {
+              "total": 7,
+              "percentage": "20.59%"
+            },
+            "61-75": {
+              "total": 7,
+              "percentage": "20.59%"
+            },
+            "76-90": {
+              "total": 12,
+              "percentage": "35.29%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 22,
+              "under": 7
+            },
+            "1.5": {
+              "over": 7,
+              "under": 22
+            },
+            "2.5": {
+              "over": 3,
+              "under": 26
+            },
+            "3.5": {
+              "over": 0,
+              "under": 29
+            },
+            "4.5": {
+              "over": 0,
+              "under": 29
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 15,
+            "away": 27,
+            "total": 42
+          },
+          "average": {
+            "home": "1.1",
+            "away": "1.8",
+            "total": "1.4"
+          },
+          "minute": {
+            "0-15": {
+              "total": 2,
+              "percentage": "5.00%"
+            },
+            "16-30": {
+              "total": 7,
+              "percentage": "17.50%"
+            },
+            "31-45": {
+              "total": 7,
+              "percentage": "17.50%"
+            },
+            "46-60": {
+              "total": 7,
+              "percentage": "17.50%"
+            },
+            "61-75": {
+              "total": 7,
+              "percentage": "17.50%"
+            },
+            "76-90": {
+              "total": 10,
+              "percentage": "25.00%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 21,
+              "under": 8
+            },
+            "1.5": {
+              "over": 13,
+              "under": 16
+            },
+            "2.5": {
+              "over": 3,
+              "under": 26
+            },
+            "3.5": {
+              "over": 3,
+              "under": 26
+            },
+            "4.5": {
+              "over": 1,
+              "under": 28
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 2,
+          "draws": 2,
+          "loses": 2
+        },
+        "wins": {
+          "home": "3-0",
+          "away": "0-2"
+        },
+        "loses": {
+          "home": "0-2",
+          "away": "6-0"
+        },
+        "goals": {
+          "for": {
+            "home": 3,
+            "away": 2
+          },
+          "against": {
+            "home": 2,
+            "away": 6
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 4,
+        "away": 4,
+        "total": 8
+      },
+      "failed_to_score": {
+        "home": 2,
+        "away": 5,
+        "total": 7
+      },
+      "penalty": {
+        "scored": {
+          "total": 5,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 5
+      },
+      "lineups": [
+        {
+          "formation": "4-4-2",
+          "played": 16
+        },
+        {
+          "formation": "4-2-3-1",
+          "played": 8
+        },
+        {
+          "formation": "3-5-2",
+          "played": 2
+        },
+        {
+          "formation": "5-3-2",
+          "played": 1
+        },
+        {
+          "formation": "3-4-2-1",
+          "played": 1
+        },
+        {
+          "formation": "4-3-3",
+          "played": 1
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": 6,
+            "percentage": "10.17%"
+          },
+          "31-45": {
+            "total": 7,
+            "percentage": "11.86%"
+          },
+          "46-60": {
+            "total": 11,
+            "percentage": "18.64%"
+          },
+          "61-75": {
+            "total": 11,
+            "percentage": "18.64%"
+          },
+          "76-90": {
+            "total": 14,
+            "percentage": "23.73%"
+          },
+          "91-105": {
+            "total": 10,
+            "percentage": "16.95%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": 1,
+            "percentage": "50.00%"
+          },
+          "31-45": {
+            "total": null,
+            "percentage": null
+          },
+          "46-60": {
+            "total": null,
+            "percentage": null
+          },
+          "61-75": {
+            "total": null,
+            "percentage": null
+          },
+          "76-90": {
+            "total": null,
+            "percentage": null
+          },
+          "91-105": {
+            "total": null,
+            "percentage": null
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          },
+          "": {
+            "total": 1,
+            "percentage": "50.00%"
+          }
+        }
+      }
+    },
+    "away_stats": {
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 538,
+        "name": "Celta Vigo",
+        "logo": "https://media.api-sports.io/football/teams/538.png"
+      },
+      "form": "LDDDDDLDDWWLWLWWDWWWLDLDWWLDL",
+      "fixtures": {
+        "played": {
+          "home": 15,
+          "away": 14,
+          "total": 29
+        },
+        "wins": {
+          "home": 4,
+          "away": 6,
+          "total": 10
+        },
+        "draws": {
+          "home": 5,
+          "away": 6,
+          "total": 11
+        },
+        "loses": {
+          "home": 6,
+          "away": 2,
+          "total": 8
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 23,
+            "away": 18,
+            "total": 41
+          },
+          "average": {
+            "home": "1.5",
+            "away": "1.3",
+            "total": "1.4"
+          },
+          "minute": {
+            "0-15": {
+              "total": 3,
+              "percentage": "7.32%"
+            },
+            "16-30": {
+              "total": 6,
+              "percentage": "14.63%"
+            },
+            "31-45": {
+              "total": 7,
+              "percentage": "17.07%"
+            },
+            "46-60": {
+              "total": 10,
+              "percentage": "24.39%"
+            },
+            "61-75": {
+              "total": 3,
+              "percentage": "7.32%"
+            },
+            "76-90": {
+              "total": 12,
+              "percentage": "29.27%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 25,
+              "under": 4
+            },
+            "1.5": {
+              "over": 11,
+              "under": 18
+            },
+            "2.5": {
+              "over": 4,
+              "under": 25
+            },
+            "3.5": {
+              "over": 1,
+              "under": 28
+            },
+            "4.5": {
+              "over": 0,
+              "under": 29
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 21,
+            "away": 14,
+            "total": 35
+          },
+          "average": {
+            "home": "1.4",
+            "away": "1.0",
+            "total": "1.2"
+          },
+          "minute": {
+            "0-15": {
+              "total": 3,
+              "percentage": "8.57%"
+            },
+            "16-30": {
+              "total": 2,
+              "percentage": "5.71%"
+            },
+            "31-45": {
+              "total": 8,
+              "percentage": "22.86%"
+            },
+            "46-60": {
+              "total": 4,
+              "percentage": "11.43%"
+            },
+            "61-75": {
+              "total": 10,
+              "percentage": "28.57%"
+            },
+            "76-90": {
+              "total": 8,
+              "percentage": "22.86%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 21,
+              "under": 8
+            },
+            "1.5": {
+              "over": 9,
+              "under": 20
+            },
+            "2.5": {
+              "over": 3,
+              "under": 26
+            },
+            "3.5": {
+              "over": 2,
+              "under": 27
+            },
+            "4.5": {
+              "over": 0,
+              "under": 29
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 3,
+          "draws": 5,
+          "loses": 1
+        },
+        "wins": {
+          "home": "4-1",
+          "away": "0-2"
+        },
+        "loses": {
+          "home": "2-4",
+          "away": "3-1"
+        },
+        "goals": {
+          "for": {
+            "home": 4,
+            "away": 3
+          },
+          "against": {
+            "home": 4,
+            "away": 3
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 3,
+        "away": 5,
+        "total": 8
+      },
+      "failed_to_score": {
+        "home": 2,
+        "away": 2,
+        "total": 4
+      },
+      "penalty": {
+        "scored": {
+          "total": 7,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 7
+      },
+      "lineups": [
+        {
+          "formation": "3-4-3",
+          "played": 22
+        },
+        {
+          "formation": "3-4-2-1",
+          "played": 5
+        },
+        {
+          "formation": "4-3-3",
+          "played": 1
+        },
+        {
+          "formation": "4-4-2",
+          "played": 1
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": 1,
+            "percentage": "1.82%"
+          },
+          "16-30": {
+            "total": 4,
+            "percentage": "7.27%"
+          },
+          "31-45": {
+            "total": 7,
+            "percentage": "12.73%"
+          },
+          "46-60": {
+            "total": 12,
+            "percentage": "21.82%"
+          },
+          "61-75": {
+            "total": 11,
+            "percentage": "20.00%"
+          },
+          "76-90": {
+            "total": 12,
+            "percentage": "21.82%"
+          },
+          "91-105": {
+            "total": 6,
+            "percentage": "10.91%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          },
+          "": {
+            "total": 2,
+            "percentage": "3.64%"
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": null,
+            "percentage": null
+          },
+          "31-45": {
+            "total": null,
+            "percentage": null
+          },
+          "46-60": {
+            "total": 1,
+            "percentage": "100.00%"
+          },
+          "61-75": {
+            "total": null,
+            "percentage": null
+          },
+          "76-90": {
+            "total": null,
+            "percentage": null
+          },
+          "91-105": {
+            "total": null,
+            "percentage": null
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        }
+      }
+    },
+    "home_form": [
+      {
+        "fixture": {
+          "id": 1391107,
+          "referee": "Victor Garcia Verdura, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-21T20:00:00+00:00",
+          "timestamp": 1774123200,
+          "periods": {
+            "first": 1774123200,
+            "second": 1774126800
+          },
+          "venue": {
+            "id": 1494,
+            "name": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n",
+            "city": "Sevilla"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 29",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png",
+            "winner": false
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391098,
+          "referee": "Miguel Sesma Espinosa, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-14T17:30:00+00:00",
+          "timestamp": 1773509400,
+          "periods": {
+            "first": 1773509400,
+            "second": 1773513000
+          },
+          "venue": {
+            "id": 1490,
+            "name": "Estadio Nuevo Carlos Tartiere",
+            "city": "Oviedo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 28",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 718,
+            "name": "Oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png",
+            "winner": true
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391087,
+          "referee": "Jose Luis Guzman Mansilla, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-08T20:00:00+00:00",
+          "timestamp": 1773000000,
+          "periods": {
+            "first": 1773000000,
+            "second": 1773003600
+          },
+          "venue": {
+            "id": 1497,
+            "name": "Estadio de Mestalla",
+            "city": "Valencia"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 13
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": true
+          },
+          "away": {
+            "id": 542,
+            "name": "Alaves",
+            "logo": "https://media.api-sports.io/football/teams/542.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391078,
+          "referee": "Adrian Cordero Vega, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-01T15:15:00+00:00",
+          "timestamp": 1772378100,
+          "periods": {
+            "first": 1772378100,
+            "second": 1772381700
+          },
+          "venue": {
+            "id": 1497,
+            "name": "Estadio de Mestalla",
+            "city": "Valencia"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 10
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 26",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": true
+          },
+          "away": {
+            "id": 727,
+            "name": "Osasuna",
+            "logo": "https://media.api-sports.io/football/teams/727.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391068,
+          "referee": "Jesus Gil Manzano, Spain",
+          "timezone": "UTC",
+          "date": "2026-02-22T20:00:00+00:00",
+          "timestamp": 1771790400,
+          "periods": {
+            "first": 1771790400,
+            "second": 1771794000
+          },
+          "venue": {
+            "id": 1498,
+            "name": "Estadio de la Ceramica",
+            "city": "Villarreal"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 4
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 25",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 533,
+            "name": "Villarreal",
+            "logo": "https://media.api-sports.io/football/teams/533.png",
+            "winner": true
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "away_form": [
+      {
+        "fixture": {
+          "id": 1391101,
+          "referee": "Miguel Sesma Espinosa, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-22T15:15:00+00:00",
+          "timestamp": 1774192500,
+          "periods": {
+            "first": 1774192500,
+            "second": 1774196100
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio Abanca Bala\u00eddos",
+            "city": "Vigo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 10
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 29",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": false
+          },
+          "away": {
+            "id": 542,
+            "name": "Alaves",
+            "logo": "https://media.api-sports.io/football/teams/542.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 4
+        },
+        "score": {
+          "halftime": {
+            "home": 3,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 4
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1528346,
+          "referee": "I. Peljto",
+          "timezone": "UTC",
+          "date": "2026-03-19T17:45:00+00:00",
+          "timestamp": 1773942300,
+          "periods": {
+            "first": 1773942300,
+            "second": 1773945900
+          },
+          "venue": {
+            "id": null,
+            "name": "Parc Olympique Lyonnais",
+            "city": "Lyon"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 3,
+          "name": "UEFA Europa League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/3.png",
+          "flag": null,
+          "season": 2025,
+          "round": "Round of 16",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 80,
+            "name": "Lyon",
+            "logo": "https://media.api-sports.io/football/teams/80.png",
+            "winner": false
+          },
+          "away": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391092,
+          "referee": "Jos\u00e9 Mar\u00eda S\u00e1nchez Mart\u00ednez, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-15T17:30:00+00:00",
+          "timestamp": 1773595800,
+          "periods": {
+            "first": 1773595800,
+            "second": 1773599400
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio de la Cartuja",
+            "city": "Seville"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 7
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 28",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 543,
+            "name": "Real Betis",
+            "logo": "https://media.api-sports.io/football/teams/543.png",
+            "winner": null
+          },
+          "away": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1528338,
+          "referee": "E. Lambrechts",
+          "timezone": "UTC",
+          "date": "2026-03-12T20:00:00+00:00",
+          "timestamp": 1773345600,
+          "periods": {
+            "first": 1773345600,
+            "second": 1773349200
+          },
+          "venue": {
+            "id": 0,
+            "name": null,
+            "city": "Vigo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 8
+          }
+        },
+        "league": {
+          "id": 3,
+          "name": "UEFA Europa League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/3.png",
+          "flag": null,
+          "season": 2025,
+          "round": "Round of 16",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": null
+          },
+          "away": {
+            "id": 80,
+            "name": "Lyon",
+            "logo": "https://media.api-sports.io/football/teams/80.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391081,
+          "referee": "Isidro Diaz de Mera Escuderos, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-06T20:00:00+00:00",
+          "timestamp": 1772827200,
+          "periods": {
+            "first": 1772827200,
+            "second": 1772830800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio Abanca Bala\u00eddos",
+            "city": "Vigo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": false
+          },
+          "away": {
+            "id": 541,
+            "name": "Real Madrid",
+            "logo": "https://media.api-sports.io/football/teams/541.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "h2h": [
+      {
+        "fixture": {
+          "id": 1390990,
+          "referee": "Ricardo De Burgos Bengoetxea, Spain",
+          "timezone": "UTC",
+          "date": "2026-01-03T13:00:00+00:00",
+          "timestamp": 1767445200,
+          "periods": {
+            "first": 1767445200,
+            "second": 1767448800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio Abanca Bala\u00eddos",
+            "city": "Vigo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 9
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 18",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": true
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 4,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 4,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1208690,
+          "referee": "Pablo Gonz\u00e1lez",
+          "timezone": "UTC",
+          "date": "2025-02-02T15:15:00+00:00",
+          "timestamp": 1738509300,
+          "periods": {
+            "first": 1738509300,
+            "second": 1738512900
+          },
+          "venue": {
+            "id": 1497,
+            "name": "Estadio de Mestalla",
+            "city": "Valencia"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 9
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2024,
+          "round": "Regular Season - 22",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": true
+          },
+          "away": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1208504,
+          "referee": "Jos\u00e9 Munuera",
+          "timezone": "UTC",
+          "date": "2024-08-23T17:00:00+00:00",
+          "timestamp": 1724432400,
+          "periods": {
+            "first": 1724432400,
+            "second": 1724436000
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio Abanca-Bala\u00eddos",
+            "city": "Vigo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2024,
+          "round": "Regular Season - 2",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": true
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1038323,
+          "referee": "Miguel Angel Ortiz Arias, Spain",
+          "timezone": "UTC",
+          "date": "2024-05-26T14:15:00+00:00",
+          "timestamp": 1716732900,
+          "periods": {
+            "first": 1716732900,
+            "second": 1716736500
+          },
+          "venue": {
+            "id": 1467,
+            "name": "Abanca-Bala\u00eddos",
+            "city": "Vigo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2023,
+          "round": "Regular Season - 38",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": null
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1157505,
+          "referee": "Ricardo De Burgos",
+          "timezone": "UTC",
+          "date": "2024-01-17T19:00:00+00:00",
+          "timestamp": 1705518000,
+          "periods": {
+            "first": 1705518000,
+            "second": 1705521600
+          },
+          "venue": {
+            "id": 1497,
+            "name": "Estadio de Mestalla",
+            "city": "Valencia"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 143,
+          "name": "Copa del Rey",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/143.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2023,
+          "round": "Round of 16",
+          "standings": false
+        },
+        "teams": {
+          "home": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": false
+          },
+          "away": {
+            "id": 538,
+            "name": "Celta Vigo",
+            "logo": "https://media.api-sports.io/football/teams/538.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 3
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 3
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ]
+  },
+  "Napoli vs AC Milan": {
+    "fixture": {
+      "fixture": {
+        "id": 1378169,
+        "referee": "D. Doveri",
+        "timezone": "UTC",
+        "date": "2026-04-06T18:45:00+00:00",
+        "timestamp": 1775501100,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Stadio Diego Armando Maradona",
+          "city": "Naples"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2025,
+        "round": "Regular Season - 31",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png",
+          "winner": null
+        },
+        "away": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    "home_id": 492,
+    "away_id": 489,
+    "home_stats": {
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 492,
+        "name": "Napoli",
+        "logo": "https://media.api-sports.io/football/teams/492.png"
+      },
+      "form": "WWWWLWLWWDLWWWLWWDDDWLWWDLWWWW",
+      "fixtures": {
+        "played": {
+          "home": 14,
+          "away": 16,
+          "total": 30
+        },
+        "wins": {
+          "home": 10,
+          "away": 9,
+          "total": 19
+        },
+        "draws": {
+          "home": 4,
+          "away": 1,
+          "total": 5
+        },
+        "loses": {
+          "home": 0,
+          "away": 6,
+          "total": 6
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 25,
+            "away": 21,
+            "total": 46
+          },
+          "average": {
+            "home": "1.8",
+            "away": "1.3",
+            "total": "1.5"
+          },
+          "minute": {
+            "0-15": {
+              "total": 10,
+              "percentage": "21.74%"
+            },
+            "16-30": {
+              "total": 6,
+              "percentage": "13.04%"
+            },
+            "31-45": {
+              "total": 8,
+              "percentage": "17.39%"
+            },
+            "46-60": {
+              "total": 8,
+              "percentage": "17.39%"
+            },
+            "61-75": {
+              "total": 6,
+              "percentage": "13.04%"
+            },
+            "76-90": {
+              "total": 8,
+              "percentage": "17.39%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 24,
+              "under": 6
+            },
+            "1.5": {
+              "over": 17,
+              "under": 13
+            },
+            "2.5": {
+              "over": 5,
+              "under": 25
+            },
+            "3.5": {
+              "over": 0,
+              "under": 30
+            },
+            "4.5": {
+              "over": 0,
+              "under": 30
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 13,
+            "away": 17,
+            "total": 30
+          },
+          "average": {
+            "home": "0.9",
+            "away": "1.1",
+            "total": "1.0"
+          },
+          "minute": {
+            "0-15": {
+              "total": 5,
+              "percentage": "16.67%"
+            },
+            "16-30": {
+              "total": 3,
+              "percentage": "10.00%"
+            },
+            "31-45": {
+              "total": 3,
+              "percentage": "10.00%"
+            },
+            "46-60": {
+              "total": 7,
+              "percentage": "23.33%"
+            },
+            "61-75": {
+              "total": 6,
+              "percentage": "20.00%"
+            },
+            "76-90": {
+              "total": 6,
+              "percentage": "20.00%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 20,
+              "under": 10
+            },
+            "1.5": {
+              "over": 9,
+              "under": 21
+            },
+            "2.5": {
+              "over": 1,
+              "under": 29
+            },
+            "3.5": {
+              "over": 0,
+              "under": 30
+            },
+            "4.5": {
+              "over": 0,
+              "under": 30
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 4,
+          "draws": 3,
+          "loses": 1
+        },
+        "wins": {
+          "home": "3-1",
+          "away": "1-3"
+        },
+        "loses": {
+          "home": null,
+          "away": "3-0"
+        },
+        "goals": {
+          "for": {
+            "home": 3,
+            "away": 3
+          },
+          "against": {
+            "home": 2,
+            "away": 3
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 4,
+        "away": 6,
+        "total": 10
+      },
+      "failed_to_score": {
+        "home": 2,
+        "away": 4,
+        "total": 6
+      },
+      "penalty": {
+        "scored": {
+          "total": 4,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 4
+      },
+      "lineups": [
+        {
+          "formation": "3-4-2-1",
+          "played": 15
+        },
+        {
+          "formation": "4-1-4-1",
+          "played": 8
+        },
+        {
+          "formation": "3-4-3",
+          "played": 4
+        },
+        {
+          "formation": "4-3-3",
+          "played": 3
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": 2,
+            "percentage": "4.76%"
+          },
+          "16-30": {
+            "total": 3,
+            "percentage": "7.14%"
+          },
+          "31-45": {
+            "total": 5,
+            "percentage": "11.90%"
+          },
+          "46-60": {
+            "total": 8,
+            "percentage": "19.05%"
+          },
+          "61-75": {
+            "total": 15,
+            "percentage": "35.71%"
+          },
+          "76-90": {
+            "total": 4,
+            "percentage": "9.52%"
+          },
+          "91-105": {
+            "total": 5,
+            "percentage": "11.90%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": null,
+            "percentage": null
+          },
+          "31-45": {
+            "total": null,
+            "percentage": null
+          },
+          "46-60": {
+            "total": null,
+            "percentage": null
+          },
+          "61-75": {
+            "total": null,
+            "percentage": null
+          },
+          "76-90": {
+            "total": 2,
+            "percentage": "100.00%"
+          },
+          "91-105": {
+            "total": null,
+            "percentage": null
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        }
+      }
+    },
+    "away_stats": {
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 489,
+        "name": "AC Milan",
+        "logo": "https://media.api-sports.io/football/teams/489.png"
+      },
+      "form": "LWWWWDWDDWDWWWDWWDDWWDWWDLWWLW",
+      "fixtures": {
+        "played": {
+          "home": 15,
+          "away": 15,
+          "total": 30
+        },
+        "wins": {
+          "home": 9,
+          "away": 9,
+          "total": 18
+        },
+        "draws": {
+          "home": 4,
+          "away": 5,
+          "total": 9
+        },
+        "loses": {
+          "home": 2,
+          "away": 1,
+          "total": 3
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 22,
+            "away": 25,
+            "total": 47
+          },
+          "average": {
+            "home": "1.5",
+            "away": "1.7",
+            "total": "1.6"
+          },
+          "minute": {
+            "0-15": {
+              "total": 4,
+              "percentage": "8.51%"
+            },
+            "16-30": {
+              "total": 3,
+              "percentage": "6.38%"
+            },
+            "31-45": {
+              "total": 11,
+              "percentage": "23.40%"
+            },
+            "46-60": {
+              "total": 12,
+              "percentage": "25.53%"
+            },
+            "61-75": {
+              "total": 6,
+              "percentage": "12.77%"
+            },
+            "76-90": {
+              "total": 11,
+              "percentage": "23.40%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 27,
+              "under": 3
+            },
+            "1.5": {
+              "over": 14,
+              "under": 16
+            },
+            "2.5": {
+              "over": 6,
+              "under": 24
+            },
+            "3.5": {
+              "over": 0,
+              "under": 30
+            },
+            "4.5": {
+              "over": 0,
+              "under": 30
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 13,
+            "away": 10,
+            "total": 23
+          },
+          "average": {
+            "home": "0.9",
+            "away": "0.7",
+            "total": "0.8"
+          },
+          "minute": {
+            "0-15": {
+              "total": 3,
+              "percentage": "13.04%"
+            },
+            "16-30": {
+              "total": 4,
+              "percentage": "17.39%"
+            },
+            "31-45": {
+              "total": 4,
+              "percentage": "17.39%"
+            },
+            "46-60": {
+              "total": 3,
+              "percentage": "13.04%"
+            },
+            "61-75": {
+              "total": 5,
+              "percentage": "21.74%"
+            },
+            "76-90": {
+              "total": 4,
+              "percentage": "17.39%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 17,
+              "under": 13
+            },
+            "1.5": {
+              "over": 6,
+              "under": 24
+            },
+            "2.5": {
+              "over": 0,
+              "under": 30
+            },
+            "3.5": {
+              "over": 0,
+              "under": 30
+            },
+            "4.5": {
+              "over": 0,
+              "under": 30
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 4,
+          "draws": 2,
+          "loses": 1
+        },
+        "wins": {
+          "home": "3-0",
+          "away": "0-3"
+        },
+        "loses": {
+          "home": "1-2",
+          "away": "1-0"
+        },
+        "goals": {
+          "for": {
+            "home": 3,
+            "away": 3
+          },
+          "against": {
+            "home": 2,
+            "away": 2
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 6,
+        "away": 7,
+        "total": 13
+      },
+      "failed_to_score": {
+        "home": 1,
+        "away": 2,
+        "total": 3
+      },
+      "penalty": {
+        "scored": {
+          "total": 5,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 5
+      },
+      "lineups": [
+        {
+          "formation": "3-5-2",
+          "played": 27
+        },
+        {
+          "formation": "3-4-2-1",
+          "played": 2
+        },
+        {
+          "formation": "3-1-4-2",
+          "played": 1
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": 3,
+            "percentage": "6.12%"
+          },
+          "16-30": {
+            "total": 5,
+            "percentage": "10.20%"
+          },
+          "31-45": {
+            "total": 2,
+            "percentage": "4.08%"
+          },
+          "46-60": {
+            "total": 10,
+            "percentage": "20.41%"
+          },
+          "61-75": {
+            "total": 8,
+            "percentage": "16.33%"
+          },
+          "76-90": {
+            "total": 12,
+            "percentage": "24.49%"
+          },
+          "91-105": {
+            "total": 9,
+            "percentage": "18.37%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": null,
+            "percentage": null
+          },
+          "31-45": {
+            "total": null,
+            "percentage": null
+          },
+          "46-60": {
+            "total": 1,
+            "percentage": "50.00%"
+          },
+          "61-75": {
+            "total": null,
+            "percentage": null
+          },
+          "76-90": {
+            "total": null,
+            "percentage": null
+          },
+          "91-105": {
+            "total": 1,
+            "percentage": "50.00%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        }
+      }
+    },
+    "home_form": [
+      {
+        "fixture": {
+          "id": 1378156,
+          "referee": "Maurizio Mariani, Italy",
+          "timezone": "UTC",
+          "date": "2026-03-20T17:30:00+00:00",
+          "timestamp": 1774027800,
+          "periods": {
+            "first": 1774027800,
+            "second": 1774031400
+          },
+          "venue": {
+            "id": 12275,
+            "name": "Unipol Domus",
+            "city": "Cagliari"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 30",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 490,
+            "name": "Cagliari",
+            "logo": "https://media.api-sports.io/football/teams/490.png",
+            "winner": false
+          },
+          "away": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378148,
+          "referee": "Rosario Abisso, Italy",
+          "timezone": "UTC",
+          "date": "2026-03-14T17:00:00+00:00",
+          "timestamp": 1773507600,
+          "periods": {
+            "first": 1773507600,
+            "second": 1773511200
+          },
+          "venue": {
+            "id": null,
+            "name": "Stadio Diego Armando Maradona",
+            "city": "Naples"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 29",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": true
+          },
+          "away": {
+            "id": 867,
+            "name": "Lecce",
+            "logo": "https://media.api-sports.io/football/teams/867.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378143,
+          "referee": "Michael Fabbri, Italy",
+          "timezone": "UTC",
+          "date": "2026-03-06T19:45:00+00:00",
+          "timestamp": 1772826300,
+          "periods": {
+            "first": 1772826300,
+            "second": 1772829900
+          },
+          "venue": {
+            "id": null,
+            "name": "Stadio Diego Armando Maradona",
+            "city": "Naples"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 28",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": true
+          },
+          "away": {
+            "id": 503,
+            "name": "Torino",
+            "logo": "https://media.api-sports.io/football/teams/503.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378133,
+          "referee": "Andrea Colombo, Italy",
+          "timezone": "UTC",
+          "date": "2026-02-28T17:00:00+00:00",
+          "timestamp": 1772298000,
+          "periods": {
+            "first": 1772298000,
+            "second": 1772301600
+          },
+          "venue": {
+            "id": 0,
+            "name": "Stadio Marcantonio Bentegodi",
+            "city": "Verona"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 7
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 504,
+            "name": "Hellas Verona",
+            "logo": "https://media.api-sports.io/football/teams/504.png",
+            "winner": false
+          },
+          "away": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378114,
+          "referee": "Daniele Chiffi, Italy",
+          "timezone": "UTC",
+          "date": "2026-02-22T14:00:00+00:00",
+          "timestamp": 1771768800,
+          "periods": {
+            "first": 1771768800,
+            "second": 1771772400
+          },
+          "venue": {
+            "id": 879,
+            "name": "New Balance Arena",
+            "city": "Bergamo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 26",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 499,
+            "name": "Atalanta",
+            "logo": "https://media.api-sports.io/football/teams/499.png",
+            "winner": true
+          },
+          "away": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "away_form": [
+      {
+        "fixture": {
+          "id": 1378161,
+          "referee": "Francesco Fourneau, Italy",
+          "timezone": "UTC",
+          "date": "2026-03-21T17:00:00+00:00",
+          "timestamp": 1774112400,
+          "periods": {
+            "first": 1774112400,
+            "second": 1774116000
+          },
+          "venue": {
+            "id": 907,
+            "name": "Stadio Giuseppe Meazza",
+            "city": "Milan"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 30",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": true
+          },
+          "away": {
+            "id": 503,
+            "name": "Torino",
+            "logo": "https://media.api-sports.io/football/teams/503.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378147,
+          "referee": "Marco Guida, Italy",
+          "timezone": "UTC",
+          "date": "2026-03-15T19:45:00+00:00",
+          "timestamp": 1773603900,
+          "periods": {
+            "first": 1773603900,
+            "second": 1773607500
+          },
+          "venue": {
+            "id": null,
+            "name": "Stadio Olimpico",
+            "city": "Rome"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 8
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 29",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 487,
+            "name": "Lazio",
+            "logo": "https://media.api-sports.io/football/teams/487.png",
+            "winner": true
+          },
+          "away": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378142,
+          "referee": "Daniele Doveri, Italy",
+          "timezone": "UTC",
+          "date": "2026-03-08T19:45:00+00:00",
+          "timestamp": 1772999100,
+          "periods": {
+            "first": 1772999100,
+            "second": 1773002700
+          },
+          "venue": {
+            "id": 907,
+            "name": "Stadio Giuseppe Meazza",
+            "city": "Milan"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 28",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": true
+          },
+          "away": {
+            "id": 505,
+            "name": "Inter",
+            "logo": "https://media.api-sports.io/football/teams/505.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378125,
+          "referee": "Davide Massa, Italy",
+          "timezone": "UTC",
+          "date": "2026-03-01T11:30:00+00:00",
+          "timestamp": 1772364600,
+          "periods": {
+            "first": 1772364600,
+            "second": 1772368200
+          },
+          "venue": {
+            "id": 894,
+            "name": "Stadio Giovanni Zini",
+            "city": "Cremona"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 520,
+            "name": "Cremonese",
+            "logo": "https://media.api-sports.io/football/teams/520.png",
+            "winner": false
+          },
+          "away": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1378121,
+          "referee": "Marco Piccinini, Italy",
+          "timezone": "UTC",
+          "date": "2026-02-22T17:00:00+00:00",
+          "timestamp": 1771779600,
+          "periods": {
+            "first": 1771779600,
+            "second": 1771783200
+          },
+          "venue": {
+            "id": 907,
+            "name": "Stadio Giuseppe Meazza",
+            "city": "Milan"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 8
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 26",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": false
+          },
+          "away": {
+            "id": 523,
+            "name": "Parma",
+            "logo": "https://media.api-sports.io/football/teams/523.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "h2h": [
+      {
+        "fixture": {
+          "id": 1491502,
+          "referee": "Luca Zufferli, Italy",
+          "timezone": "UTC",
+          "date": "2025-12-18T19:00:00+00:00",
+          "timestamp": 1766084400,
+          "periods": {
+            "first": 1766084400,
+            "second": 1766088000
+          },
+          "venue": {
+            "id": null,
+            "name": "King Saud University Stadium",
+            "city": "Riyadh"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 8
+          }
+        },
+        "league": {
+          "id": 547,
+          "name": "Super Cup",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/547.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Semi-finals",
+          "standings": false
+        },
+        "teams": {
+          "home": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": true
+          },
+          "away": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1377909,
+          "referee": "Daniele Chiffi, Italy",
+          "timezone": "UTC",
+          "date": "2025-09-28T18:45:00+00:00",
+          "timestamp": 1759085100,
+          "periods": {
+            "first": 1759085100,
+            "second": 1759088700
+          },
+          "venue": {
+            "id": 907,
+            "name": "Stadio Giuseppe Meazza",
+            "city": "Milan"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 9
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2025,
+          "round": "Regular Season - 5",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": true
+          },
+          "away": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1223893,
+          "referee": "S. Sozza",
+          "timezone": "UTC",
+          "date": "2025-03-30T18:45:00+00:00",
+          "timestamp": 1743360300,
+          "periods": {
+            "first": 1743360300,
+            "second": 1743363900
+          },
+          "venue": {
+            "id": 11904,
+            "name": "Stadio Diego Armando Maradona",
+            "city": "Napoli"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2024,
+          "round": "Regular Season - 30",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": true
+          },
+          "away": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1223692,
+          "referee": "A. Colombo",
+          "timezone": "UTC",
+          "date": "2024-10-29T19:45:00+00:00",
+          "timestamp": 1730231100,
+          "periods": {
+            "first": 1730231100,
+            "second": 1730234700
+          },
+          "venue": {
+            "id": 907,
+            "name": "Stadio Giuseppe Meazza",
+            "city": "Milano"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 7
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2024,
+          "round": "Regular Season - 10",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": false
+          },
+          "away": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1052488,
+          "referee": "D. Doveri",
+          "timezone": "UTC",
+          "date": "2024-02-11T19:45:00+00:00",
+          "timestamp": 1707680700,
+          "periods": {
+            "first": 1707680700,
+            "second": 1707684300
+          },
+          "venue": {
+            "id": 907,
+            "name": "Stadio Giuseppe Meazza",
+            "city": "Milano"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 135,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg",
+          "season": 2023,
+          "round": "Regular Season - 24",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 489,
+            "name": "AC Milan",
+            "logo": "https://media.api-sports.io/football/teams/489.png",
+            "winner": true
+          },
+          "away": {
+            "id": 492,
+            "name": "Napoli",
+            "logo": "https://media.api-sports.io/football/teams/492.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ]
+  },
+  "Oviedo vs Sevilla": {
+    "fixture": {
+      "fixture": {
+        "id": 1391117,
+        "referee": "A. Hernandez",
+        "timezone": "UTC",
+        "date": "2026-04-05T16:30:00+00:00",
+        "timestamp": 1775406600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 1490,
+          "name": "Estadio Nuevo Carlos Tartiere",
+          "city": "Oviedo"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2025,
+        "round": "Regular Season - 30",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png",
+          "winner": null
+        },
+        "away": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    "home_id": 718,
+    "away_id": 536,
+    "home_stats": {
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 718,
+        "name": "Oviedo",
+        "logo": "https://media.api-sports.io/football/teams/718.png"
+      },
+      "form": "LLWLLLWLLDDLDLDLDDDLLWLDLLDWL",
+      "fixtures": {
+        "played": {
+          "home": 14,
+          "away": 15,
+          "total": 29
+        },
+        "wins": {
+          "home": 3,
+          "away": 1,
+          "total": 4
+        },
+        "draws": {
+          "home": 5,
+          "away": 4,
+          "total": 9
+        },
+        "loses": {
+          "home": 6,
+          "away": 10,
+          "total": 16
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 6,
+            "away": 14,
+            "total": 20
+          },
+          "average": {
+            "home": "0.4",
+            "away": "0.9",
+            "total": "0.7"
+          },
+          "minute": {
+            "0-15": {
+              "total": 1,
+              "percentage": "5.00%"
+            },
+            "16-30": {
+              "total": 2,
+              "percentage": "10.00%"
+            },
+            "31-45": {
+              "total": 6,
+              "percentage": "30.00%"
+            },
+            "46-60": {
+              "total": 4,
+              "percentage": "20.00%"
+            },
+            "61-75": {
+              "total": 3,
+              "percentage": "15.00%"
+            },
+            "76-90": {
+              "total": 4,
+              "percentage": "20.00%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 13,
+              "under": 16
+            },
+            "1.5": {
+              "over": 5,
+              "under": 24
+            },
+            "2.5": {
+              "over": 2,
+              "under": 27
+            },
+            "3.5": {
+              "over": 0,
+              "under": 29
+            },
+            "4.5": {
+              "over": 0,
+              "under": 29
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 14,
+            "away": 34,
+            "total": 48
+          },
+          "average": {
+            "home": "1.0",
+            "away": "2.3",
+            "total": "1.7"
+          },
+          "minute": {
+            "0-15": {
+              "total": 4,
+              "percentage": "8.33%"
+            },
+            "16-30": {
+              "total": 7,
+              "percentage": "14.58%"
+            },
+            "31-45": {
+              "total": 7,
+              "percentage": "14.58%"
+            },
+            "46-60": {
+              "total": 7,
+              "percentage": "14.58%"
+            },
+            "61-75": {
+              "total": 10,
+              "percentage": "20.83%"
+            },
+            "76-90": {
+              "total": 13,
+              "percentage": "27.08%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 22,
+              "under": 7
+            },
+            "1.5": {
+              "over": 15,
+              "under": 14
+            },
+            "2.5": {
+              "over": 9,
+              "under": 20
+            },
+            "3.5": {
+              "over": 2,
+              "under": 27
+            },
+            "4.5": {
+              "over": 0,
+              "under": 29
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 1,
+          "draws": 3,
+          "loses": 3
+        },
+        "wins": {
+          "home": "1-0",
+          "away": "1-2"
+        },
+        "loses": {
+          "home": "0-3",
+          "away": "4-0"
+        },
+        "goals": {
+          "for": {
+            "home": 1,
+            "away": 3
+          },
+          "against": {
+            "home": 3,
+            "away": 4
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 7,
+        "away": 0,
+        "total": 7
+      },
+      "failed_to_score": {
+        "home": 8,
+        "away": 8,
+        "total": 16
+      },
+      "penalty": {
+        "scored": {
+          "total": 2,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 2
+      },
+      "lineups": [
+        {
+          "formation": "4-2-3-1",
+          "played": 20
+        },
+        {
+          "formation": "4-3-3",
+          "played": 3
+        },
+        {
+          "formation": "3-4-3",
+          "played": 1
+        },
+        {
+          "formation": "4-4-1-1",
+          "played": 1
+        },
+        {
+          "formation": "4-4-2",
+          "played": 1
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": 3,
+            "percentage": "4.62%"
+          },
+          "16-30": {
+            "total": 4,
+            "percentage": "6.15%"
+          },
+          "31-45": {
+            "total": 13,
+            "percentage": "20.00%"
+          },
+          "46-60": {
+            "total": 13,
+            "percentage": "20.00%"
+          },
+          "61-75": {
+            "total": 14,
+            "percentage": "21.54%"
+          },
+          "76-90": {
+            "total": 11,
+            "percentage": "16.92%"
+          },
+          "91-105": {
+            "total": 5,
+            "percentage": "7.69%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          },
+          "": {
+            "total": 2,
+            "percentage": "3.08%"
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": 1,
+            "percentage": "12.50%"
+          },
+          "31-45": {
+            "total": null,
+            "percentage": null
+          },
+          "46-60": {
+            "total": 1,
+            "percentage": "12.50%"
+          },
+          "61-75": {
+            "total": 1,
+            "percentage": "12.50%"
+          },
+          "76-90": {
+            "total": 3,
+            "percentage": "37.50%"
+          },
+          "91-105": {
+            "total": 2,
+            "percentage": "25.00%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        }
+      }
+    },
+    "away_stats": {
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 536,
+        "name": "Sevilla",
+        "logo": "https://media.api-sports.io/football/teams/536.png"
+      },
+      "form": "LLWDWLWWLLLWLLDWLLLDWLDDWDDLL",
+      "fixtures": {
+        "played": {
+          "home": 15,
+          "away": 14,
+          "total": 29
+        },
+        "wins": {
+          "home": 4,
+          "away": 4,
+          "total": 8
+        },
+        "draws": {
+          "home": 4,
+          "away": 3,
+          "total": 7
+        },
+        "loses": {
+          "home": 7,
+          "away": 7,
+          "total": 14
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 19,
+            "away": 18,
+            "total": 37
+          },
+          "average": {
+            "home": "1.3",
+            "away": "1.3",
+            "total": "1.3"
+          },
+          "minute": {
+            "0-15": {
+              "total": 4,
+              "percentage": "11.76%"
+            },
+            "16-30": {
+              "total": 5,
+              "percentage": "14.71%"
+            },
+            "31-45": {
+              "total": 5,
+              "percentage": "14.71%"
+            },
+            "46-60": {
+              "total": 6,
+              "percentage": "17.65%"
+            },
+            "61-75": {
+              "total": 5,
+              "percentage": "14.71%"
+            },
+            "76-90": {
+              "total": 9,
+              "percentage": "26.47%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 23,
+              "under": 6
+            },
+            "1.5": {
+              "over": 10,
+              "under": 19
+            },
+            "2.5": {
+              "over": 2,
+              "under": 27
+            },
+            "3.5": {
+              "over": 2,
+              "under": 27
+            },
+            "4.5": {
+              "over": 0,
+              "under": 29
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 22,
+            "away": 27,
+            "total": 49
+          },
+          "average": {
+            "home": "1.5",
+            "away": "1.9",
+            "total": "1.7"
+          },
+          "minute": {
+            "0-15": {
+              "total": 4,
+              "percentage": "7.69%"
+            },
+            "16-30": {
+              "total": 6,
+              "percentage": "11.54%"
+            },
+            "31-45": {
+              "total": 12,
+              "percentage": "23.08%"
+            },
+            "46-60": {
+              "total": 11,
+              "percentage": "21.15%"
+            },
+            "61-75": {
+              "total": 6,
+              "percentage": "11.54%"
+            },
+            "76-90": {
+              "total": 13,
+              "percentage": "25.00%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 24,
+              "under": 5
+            },
+            "1.5": {
+              "over": 16,
+              "under": 13
+            },
+            "2.5": {
+              "over": 6,
+              "under": 23
+            },
+            "3.5": {
+              "over": 2,
+              "under": 27
+            },
+            "4.5": {
+              "over": 1,
+              "under": 28
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 2,
+          "draws": 2,
+          "loses": 3
+        },
+        "wins": {
+          "home": "4-0",
+          "away": "0-2"
+        },
+        "loses": {
+          "home": "0-3",
+          "away": "5-2"
+        },
+        "goals": {
+          "for": {
+            "home": 4,
+            "away": 2
+          },
+          "against": {
+            "home": 3,
+            "away": 5
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 2,
+        "away": 3,
+        "total": 5
+      },
+      "failed_to_score": {
+        "home": 4,
+        "away": 2,
+        "total": 6
+      },
+      "penalty": {
+        "scored": {
+          "total": 4,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 4
+      },
+      "lineups": [
+        {
+          "formation": "4-2-3-1",
+          "played": 10
+        },
+        {
+          "formation": "3-4-2-1",
+          "played": 5
+        },
+        {
+          "formation": "5-3-2",
+          "played": 5
+        },
+        {
+          "formation": "3-4-3",
+          "played": 2
+        },
+        {
+          "formation": "3-5-2",
+          "played": 2
+        },
+        {
+          "formation": "4-1-4-1",
+          "played": 1
+        },
+        {
+          "formation": "5-4-1",
+          "played": 1
+        },
+        {
+          "formation": "3-4-1-2",
+          "played": 1
+        },
+        {
+          "formation": "4-4-2",
+          "played": 1
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": 6,
+            "percentage": "7.41%"
+          },
+          "16-30": {
+            "total": 7,
+            "percentage": "8.64%"
+          },
+          "31-45": {
+            "total": 9,
+            "percentage": "11.11%"
+          },
+          "46-60": {
+            "total": 12,
+            "percentage": "14.81%"
+          },
+          "61-75": {
+            "total": 10,
+            "percentage": "12.35%"
+          },
+          "76-90": {
+            "total": 16,
+            "percentage": "19.75%"
+          },
+          "91-105": {
+            "total": 17,
+            "percentage": "20.99%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          },
+          "": {
+            "total": 4,
+            "percentage": "4.94%"
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": 1,
+            "percentage": "25.00%"
+          },
+          "31-45": {
+            "total": null,
+            "percentage": null
+          },
+          "46-60": {
+            "total": null,
+            "percentage": null
+          },
+          "61-75": {
+            "total": 1,
+            "percentage": "25.00%"
+          },
+          "76-90": {
+            "total": 1,
+            "percentage": "25.00%"
+          },
+          "91-105": {
+            "total": null,
+            "percentage": null
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          },
+          "": {
+            "total": 1,
+            "percentage": "25.00%"
+          }
+        }
+      }
+    },
+    "home_form": [
+      {
+        "fixture": {
+          "id": 1391104,
+          "referee": "Jesus Gil Manzano, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-21T17:30:00+00:00",
+          "timestamp": 1774114200,
+          "periods": {
+            "first": 1774114200,
+            "second": 1774117800
+          },
+          "venue": {
+            "id": 1482,
+            "name": "Estadio Ciudad de Valencia",
+            "city": "Valencia"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 10
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 29",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 539,
+            "name": "Levante",
+            "logo": "https://media.api-sports.io/football/teams/539.png",
+            "winner": true
+          },
+          "away": {
+            "id": 718,
+            "name": "Oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 4,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 4,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391098,
+          "referee": "Miguel Sesma Espinosa, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-14T17:30:00+00:00",
+          "timestamp": 1773509400,
+          "periods": {
+            "first": 1773509400,
+            "second": 1773513000
+          },
+          "venue": {
+            "id": 1490,
+            "name": "Estadio Nuevo Carlos Tartiere",
+            "city": "Oviedo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 28",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 718,
+            "name": "Oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png",
+            "winner": true
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391082,
+          "referee": "Javier Alberola Rojas, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-09T20:00:00+00:00",
+          "timestamp": 1773086400,
+          "periods": {
+            "first": 1773086400,
+            "second": 1773090000
+          },
+          "venue": {
+            "id": null,
+            "name": "RCDE Stadium",
+            "city": "Cornella"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 3
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 540,
+            "name": "Espanyol",
+            "logo": "https://media.api-sports.io/football/teams/540.png",
+            "winner": null
+          },
+          "away": {
+            "id": 718,
+            "name": "Oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391044,
+          "referee": "Alejandro Hernandez, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-04T18:00:00+00:00",
+          "timestamp": 1772647200,
+          "periods": {
+            "first": 1772647200,
+            "second": 1772650800
+          },
+          "venue": {
+            "id": 1488,
+            "name": "Campo de Futbol de Vallecas",
+            "city": "Madrid"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 4
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 23",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 728,
+            "name": "Rayo Vallecano",
+            "logo": "https://media.api-sports.io/football/teams/728.png",
+            "winner": true
+          },
+          "away": {
+            "id": 718,
+            "name": "Oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391077,
+          "referee": "C\u00e9sar Soto Grado, Spain",
+          "timezone": "UTC",
+          "date": "2026-02-28T20:00:00+00:00",
+          "timestamp": 1772308800,
+          "periods": {
+            "first": 1772308800,
+            "second": 1772312400
+          },
+          "venue": {
+            "id": 1490,
+            "name": "Estadio Nuevo Carlos Tartiere",
+            "city": "Oviedo"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 26",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 718,
+            "name": "Oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png",
+            "winner": false
+          },
+          "away": {
+            "id": 530,
+            "name": "Atletico Madrid",
+            "logo": "https://media.api-sports.io/football/teams/530.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "away_form": [
+      {
+        "fixture": {
+          "id": 1391107,
+          "referee": "Victor Garcia Verdura, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-21T20:00:00+00:00",
+          "timestamp": 1774123200,
+          "periods": {
+            "first": 1774123200,
+            "second": 1774126800
+          },
+          "venue": {
+            "id": 1494,
+            "name": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n",
+            "city": "Sevilla"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 29",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png",
+            "winner": false
+          },
+          "away": {
+            "id": 532,
+            "name": "Valencia",
+            "logo": "https://media.api-sports.io/football/teams/532.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391091,
+          "referee": "Juan Martinez Munuera, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-15T15:15:00+00:00",
+          "timestamp": 1773587700,
+          "periods": {
+            "first": 1773587700,
+            "second": 1773591300
+          },
+          "venue": {
+            "id": 19939,
+            "name": "Camp Nou",
+            "city": "Barcelona"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 3
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 28",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 529,
+            "name": "Barcelona",
+            "logo": "https://media.api-sports.io/football/teams/529.png",
+            "winner": true
+          },
+          "away": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 5,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 3,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 5,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391086,
+          "referee": "Alejandro Mu\u00f1iz Ruiz, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-08T17:30:00+00:00",
+          "timestamp": 1772991000,
+          "periods": {
+            "first": 1772991000,
+            "second": 1772994600
+          },
+          "venue": {
+            "id": 1494,
+            "name": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n",
+            "city": "Sevilla"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png",
+            "winner": null
+          },
+          "away": {
+            "id": 728,
+            "name": "Rayo Vallecano",
+            "logo": "https://media.api-sports.io/football/teams/728.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391070,
+          "referee": "Ricardo De Burgos Bengoetxea, Spain",
+          "timezone": "UTC",
+          "date": "2026-03-01T17:30:00+00:00",
+          "timestamp": 1772386200,
+          "periods": {
+            "first": 1772386200,
+            "second": 1772389800
+          },
+          "venue": {
+            "id": null,
+            "name": "Estadio de la Cartuja",
+            "city": "Seville"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 26",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 543,
+            "name": "Real Betis",
+            "logo": "https://media.api-sports.io/football/teams/543.png",
+            "winner": null
+          },
+          "away": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1391065,
+          "referee": "Mateo Busquets Ferrer, Spain",
+          "timezone": "UTC",
+          "date": "2026-02-22T13:00:00+00:00",
+          "timestamp": 1771765200,
+          "periods": {
+            "first": 1771765200,
+            "second": 1771768800
+          },
+          "venue": {
+            "id": 20422,
+            "name": "Coliseum",
+            "city": "Getafe"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 8
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 25",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 546,
+            "name": "Getafe",
+            "logo": "https://media.api-sports.io/football/teams/546.png",
+            "winner": false
+          },
+          "away": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "h2h": [
+      {
+        "fixture": {
+          "id": 1390978,
+          "referee": "Isidro Diaz de Mera Escuderos, Spain",
+          "timezone": "UTC",
+          "date": "2025-12-14T13:00:00+00:00",
+          "timestamp": 1765717200,
+          "periods": {
+            "first": 1765717200,
+            "second": 1765720800
+          },
+          "venue": {
+            "id": 1494,
+            "name": "Estadio Ram\u00f3n S\u00e1nchez Pizju\u00e1n",
+            "city": "Sevilla"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 3
+          }
+        },
+        "league": {
+          "id": 140,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg",
+          "season": 2025,
+          "round": "Regular Season - 16",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 536,
+            "name": "Sevilla",
+            "logo": "https://media.api-sports.io/football/teams/536.png",
+            "winner": true
+          },
+          "away": {
+            "id": 718,
+            "name": "Oviedo",
+            "logo": "https://media.api-sports.io/football/teams/718.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 4,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 4,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ]
+  },
+  "AS Monaco vs Marseille": {
+    "fixture": {
+      "fixture": {
+        "id": 1387947,
+        "referee": "C. Turpin",
+        "timezone": "UTC",
+        "date": "2026-04-05T18:45:00+00:00",
+        "timestamp": 1775414700,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 20470,
+          "name": "Stade Louis II",
+          "city": "Monaco"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2025,
+        "round": "Regular Season - 28",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media.api-sports.io/football/teams/91.png",
+          "winner": null
+        },
+        "away": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    "home_id": 91,
+    "away_id": 81,
+    "home_stats": {
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 91,
+        "name": "Monaco",
+        "logo": "https://media.api-sports.io/football/teams/91.png"
+      },
+      "form": "WLWWWLDDWWLLLWLLLLDWDWWWWWW",
+      "fixtures": {
+        "played": {
+          "home": 14,
+          "away": 13,
+          "total": 27
+        },
+        "wins": {
+          "home": 9,
+          "away": 5,
+          "total": 14
+        },
+        "draws": {
+          "home": 1,
+          "away": 3,
+          "total": 4
+        },
+        "loses": {
+          "home": 4,
+          "away": 5,
+          "total": 9
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 29,
+            "away": 18,
+            "total": 47
+          },
+          "average": {
+            "home": "2.1",
+            "away": "1.4",
+            "total": "1.7"
+          },
+          "minute": {
+            "0-15": {
+              "total": 3,
+              "percentage": "6.52%"
+            },
+            "16-30": {
+              "total": 6,
+              "percentage": "13.04%"
+            },
+            "31-45": {
+              "total": 6,
+              "percentage": "13.04%"
+            },
+            "46-60": {
+              "total": 8,
+              "percentage": "17.39%"
+            },
+            "61-75": {
+              "total": 13,
+              "percentage": "28.26%"
+            },
+            "76-90": {
+              "total": 10,
+              "percentage": "21.74%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 21,
+              "under": 6
+            },
+            "1.5": {
+              "over": 13,
+              "under": 14
+            },
+            "2.5": {
+              "over": 8,
+              "under": 19
+            },
+            "3.5": {
+              "over": 3,
+              "under": 24
+            },
+            "4.5": {
+              "over": 2,
+              "under": 25
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 19,
+            "away": 19,
+            "total": 38
+          },
+          "average": {
+            "home": "1.4",
+            "away": "1.5",
+            "total": "1.4"
+          },
+          "minute": {
+            "0-15": {
+              "total": 2,
+              "percentage": "5.13%"
+            },
+            "16-30": {
+              "total": 5,
+              "percentage": "12.82%"
+            },
+            "31-45": {
+              "total": 9,
+              "percentage": "23.08%"
+            },
+            "46-60": {
+              "total": 5,
+              "percentage": "12.82%"
+            },
+            "61-75": {
+              "total": 6,
+              "percentage": "15.38%"
+            },
+            "76-90": {
+              "total": 12,
+              "percentage": "30.77%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 20,
+              "under": 7
+            },
+            "1.5": {
+              "over": 10,
+              "under": 17
+            },
+            "2.5": {
+              "over": 6,
+              "under": 21
+            },
+            "3.5": {
+              "over": 2,
+              "under": 25
+            },
+            "4.5": {
+              "over": 0,
+              "under": 27
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 3,
+          "draws": 2,
+          "loses": 4
+        },
+        "wins": {
+          "home": "4-0",
+          "away": "3-5"
+        },
+        "loses": {
+          "home": "1-4",
+          "away": "4-1"
+        },
+        "goals": {
+          "for": {
+            "home": 5,
+            "away": 5
+          },
+          "against": {
+            "home": 4,
+            "away": 4
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 5,
+        "away": 2,
+        "total": 7
+      },
+      "failed_to_score": {
+        "home": 1,
+        "away": 5,
+        "total": 6
+      },
+      "penalty": {
+        "scored": {
+          "total": 5,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 5
+      },
+      "lineups": [
+        {
+          "formation": "3-4-2-1",
+          "played": 8
+        },
+        {
+          "formation": "4-2-3-1",
+          "played": 7
+        },
+        {
+          "formation": "3-1-4-2",
+          "played": 3
+        },
+        {
+          "formation": "4-4-2",
+          "played": 2
+        },
+        {
+          "formation": "4-2-2-2",
+          "played": 2
+        },
+        {
+          "formation": "3-4-1-2",
+          "played": 2
+        },
+        {
+          "formation": "4-3-3",
+          "played": 1
+        },
+        {
+          "formation": "3-5-2",
+          "played": 1
+        },
+        {
+          "formation": "4-3-1-2",
+          "played": 1
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": 6,
+            "percentage": "9.52%"
+          },
+          "16-30": {
+            "total": 7,
+            "percentage": "11.11%"
+          },
+          "31-45": {
+            "total": 8,
+            "percentage": "12.70%"
+          },
+          "46-60": {
+            "total": 9,
+            "percentage": "14.29%"
+          },
+          "61-75": {
+            "total": 11,
+            "percentage": "17.46%"
+          },
+          "76-90": {
+            "total": 13,
+            "percentage": "20.63%"
+          },
+          "91-105": {
+            "total": 9,
+            "percentage": "14.29%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": null,
+            "percentage": null
+          },
+          "31-45": {
+            "total": 2,
+            "percentage": "33.33%"
+          },
+          "46-60": {
+            "total": null,
+            "percentage": null
+          },
+          "61-75": {
+            "total": 3,
+            "percentage": "50.00%"
+          },
+          "76-90": {
+            "total": 1,
+            "percentage": "16.67%"
+          },
+          "91-105": {
+            "total": null,
+            "percentage": null
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        }
+      }
+    },
+    "away_stats": {
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2025
+      },
+      "team": {
+        "id": 81,
+        "name": "Marseille",
+        "logo": "https://media.api-sports.io/football/teams/81.png"
+      },
+      "form": "LWLWWWWWLDWWWDLWLWWDLDLWWWL",
+      "fixtures": {
+        "played": {
+          "home": 14,
+          "away": 13,
+          "total": 27
+        },
+        "wins": {
+          "home": 9,
+          "away": 6,
+          "total": 15
+        },
+        "draws": {
+          "home": 3,
+          "away": 1,
+          "total": 4
+        },
+        "loses": {
+          "home": 2,
+          "away": 6,
+          "total": 8
+        }
+      },
+      "goals": {
+        "for": {
+          "total": {
+            "home": 34,
+            "away": 20,
+            "total": 54
+          },
+          "average": {
+            "home": "2.4",
+            "away": "1.5",
+            "total": "2.0"
+          },
+          "minute": {
+            "0-15": {
+              "total": 5,
+              "percentage": "9.09%"
+            },
+            "16-30": {
+              "total": 10,
+              "percentage": "18.18%"
+            },
+            "31-45": {
+              "total": 7,
+              "percentage": "12.73%"
+            },
+            "46-60": {
+              "total": 8,
+              "percentage": "14.55%"
+            },
+            "61-75": {
+              "total": 10,
+              "percentage": "18.18%"
+            },
+            "76-90": {
+              "total": 15,
+              "percentage": "27.27%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 21,
+              "under": 6
+            },
+            "1.5": {
+              "over": 14,
+              "under": 13
+            },
+            "2.5": {
+              "over": 9,
+              "under": 18
+            },
+            "3.5": {
+              "over": 5,
+              "under": 22
+            },
+            "4.5": {
+              "over": 4,
+              "under": 23
+            }
+          }
+        },
+        "against": {
+          "total": {
+            "home": 17,
+            "away": 18,
+            "total": 35
+          },
+          "average": {
+            "home": "1.2",
+            "away": "1.4",
+            "total": "1.3"
+          },
+          "minute": {
+            "0-15": {
+              "total": 6,
+              "percentage": "17.65%"
+            },
+            "16-30": {
+              "total": 5,
+              "percentage": "14.71%"
+            },
+            "31-45": {
+              "total": 3,
+              "percentage": "8.82%"
+            },
+            "46-60": {
+              "total": 3,
+              "percentage": "8.82%"
+            },
+            "61-75": {
+              "total": 4,
+              "percentage": "11.76%"
+            },
+            "76-90": {
+              "total": 13,
+              "percentage": "38.24%"
+            },
+            "91-105": {
+              "total": null,
+              "percentage": null
+            },
+            "106-120": {
+              "total": null,
+              "percentage": null
+            }
+          },
+          "under_over": {
+            "0.5": {
+              "over": 19,
+              "under": 8
+            },
+            "1.5": {
+              "over": 13,
+              "under": 14
+            },
+            "2.5": {
+              "over": 1,
+              "under": 26
+            },
+            "3.5": {
+              "over": 1,
+              "under": 26
+            },
+            "4.5": {
+              "over": 1,
+              "under": 26
+            }
+          }
+        }
+      },
+      "biggest": {
+        "streak": {
+          "wins": 5,
+          "draws": 1,
+          "loses": 1
+        },
+        "wins": {
+          "home": "6-2",
+          "away": "1-5"
+        },
+        "loses": {
+          "home": "0-2",
+          "away": "5-0"
+        },
+        "goals": {
+          "for": {
+            "home": 6,
+            "away": 5
+          },
+          "against": {
+            "home": 2,
+            "away": 5
+          }
+        }
+      },
+      "clean_sheet": {
+        "home": 5,
+        "away": 3,
+        "total": 8
+      },
+      "failed_to_score": {
+        "home": 1,
+        "away": 5,
+        "total": 6
+      },
+      "penalty": {
+        "scored": {
+          "total": 5,
+          "percentage": "100.00%"
+        },
+        "missed": {
+          "total": 0,
+          "percentage": "0%"
+        },
+        "total": 5
+      },
+      "lineups": [
+        {
+          "formation": "4-2-3-1",
+          "played": 15
+        },
+        {
+          "formation": "3-4-2-1",
+          "played": 7
+        },
+        {
+          "formation": "3-2-4-1",
+          "played": 1
+        },
+        {
+          "formation": "3-5-2",
+          "played": 1
+        },
+        {
+          "formation": "5-4-1",
+          "played": 1
+        },
+        {
+          "formation": "4-1-4-1",
+          "played": 1
+        },
+        {
+          "formation": "3-4-1-2",
+          "played": 1
+        }
+      ],
+      "cards": {
+        "yellow": {
+          "0-15": {
+            "total": 2,
+            "percentage": "3.23%"
+          },
+          "16-30": {
+            "total": 10,
+            "percentage": "16.13%"
+          },
+          "31-45": {
+            "total": 9,
+            "percentage": "14.52%"
+          },
+          "46-60": {
+            "total": 8,
+            "percentage": "12.90%"
+          },
+          "61-75": {
+            "total": 6,
+            "percentage": "9.68%"
+          },
+          "76-90": {
+            "total": 14,
+            "percentage": "22.58%"
+          },
+          "91-105": {
+            "total": 12,
+            "percentage": "19.35%"
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          },
+          "": {
+            "total": 1,
+            "percentage": "1.61%"
+          }
+        },
+        "red": {
+          "0-15": {
+            "total": null,
+            "percentage": null
+          },
+          "16-30": {
+            "total": 2,
+            "percentage": "50.00%"
+          },
+          "31-45": {
+            "total": null,
+            "percentage": null
+          },
+          "46-60": {
+            "total": 1,
+            "percentage": "25.00%"
+          },
+          "61-75": {
+            "total": 1,
+            "percentage": "25.00%"
+          },
+          "76-90": {
+            "total": null,
+            "percentage": null
+          },
+          "91-105": {
+            "total": null,
+            "percentage": null
+          },
+          "106-120": {
+            "total": null,
+            "percentage": null
+          }
+        }
+      }
+    },
+    "home_form": [
+      {
+        "fixture": {
+          "id": 1387934,
+          "referee": "Fran\u00e7ois Letexier, France",
+          "timezone": "UTC",
+          "date": "2026-03-22T14:00:00+00:00",
+          "timestamp": 1774188000,
+          "periods": {
+            "first": 1774188000,
+            "second": 1774191600
+          },
+          "venue": {
+            "id": 666,
+            "name": "Parc Olympique Lyonnais",
+            "city": "Lyon"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 8
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 80,
+            "name": "Lyon",
+            "logo": "https://media.api-sports.io/football/teams/80.png",
+            "winner": false
+          },
+          "away": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1387928,
+          "referee": "Jeremie Pignard, France",
+          "timezone": "UTC",
+          "date": "2026-03-14T20:05:00+00:00",
+          "timestamp": 1773518700,
+          "periods": {
+            "first": 1773518700,
+            "second": 1773522300
+          },
+          "venue": {
+            "id": 20470,
+            "name": "Stade Louis II",
+            "city": "Monaco"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 4
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 26",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": true
+          },
+          "away": {
+            "id": 106,
+            "name": "Stade Brestois 29",
+            "logo": "https://media.api-sports.io/football/teams/106.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1387921,
+          "referee": "Ruddy Buquet, France",
+          "timezone": "UTC",
+          "date": "2026-03-06T19:45:00+00:00",
+          "timestamp": 1772826300,
+          "periods": {
+            "first": 1772826300,
+            "second": 1772829900
+          },
+          "venue": {
+            "id": 671,
+            "name": "Parc des Princes",
+            "city": "Paris"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 7
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 25",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media.api-sports.io/football/teams/85.png",
+            "winner": false
+          },
+          "away": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 3
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 3
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1387910,
+          "referee": "Guillaume Paradis, France",
+          "timezone": "UTC",
+          "date": "2026-02-28T18:00:00+00:00",
+          "timestamp": 1772301600,
+          "periods": {
+            "first": 1772301600,
+            "second": 1772305200
+          },
+          "venue": {
+            "id": 20470,
+            "name": "Stade Louis II",
+            "city": "Monaco"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 24",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": true
+          },
+          "away": {
+            "id": 77,
+            "name": "Angers",
+            "logo": "https://media.api-sports.io/football/teams/77.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1515528,
+          "referee": "I. Kovacs",
+          "timezone": "UTC",
+          "date": "2026-02-25T20:00:00+00:00",
+          "timestamp": 1772049600,
+          "periods": {
+            "first": 1772049600,
+            "second": 1772053200
+          },
+          "venue": {
+            "id": null,
+            "name": "Parc des Princes",
+            "city": "Paris"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 2,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null,
+          "season": 2025,
+          "round": "Round of 32",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 85,
+            "name": "Paris Saint Germain",
+            "logo": "https://media.api-sports.io/football/teams/85.png",
+            "winner": null
+          },
+          "away": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "away_form": [
+      {
+        "fixture": {
+          "id": 1387935,
+          "referee": "Beno\u00eet Bastien, France",
+          "timezone": "UTC",
+          "date": "2026-03-22T16:15:00+00:00",
+          "timestamp": 1774196100,
+          "periods": {
+            "first": 1774196100,
+            "second": 1774199700
+          },
+          "venue": {
+            "id": 667,
+            "name": "Orange V\u00e9lodrome",
+            "city": "Marseille"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 5
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 27",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": false
+          },
+          "away": {
+            "id": 79,
+            "name": "Lille",
+            "logo": "https://media.api-sports.io/football/teams/79.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1387926,
+          "referee": "Marc Bollengier, France",
+          "timezone": "UTC",
+          "date": "2026-03-13T19:45:00+00:00",
+          "timestamp": 1773431100,
+          "periods": {
+            "first": 1773431100,
+            "second": 1773434700
+          },
+          "venue": {
+            "id": 667,
+            "name": "Orange V\u00e9lodrome",
+            "city": "Marseille"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 26",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": true
+          },
+          "away": {
+            "id": 108,
+            "name": "Auxerre",
+            "logo": "https://media.api-sports.io/football/teams/108.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1387922,
+          "referee": "Bastien Dechepy, France",
+          "timezone": "UTC",
+          "date": "2026-03-07T20:05:00+00:00",
+          "timestamp": 1772913900,
+          "periods": {
+            "first": 1772913900,
+            "second": 1772917500
+          },
+          "venue": {
+            "id": 682,
+            "name": "Stadium de Toulouse",
+            "city": "Toulouse"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 25",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 96,
+            "name": "Toulouse",
+            "logo": "https://media.api-sports.io/football/teams/96.png",
+            "winner": false
+          },
+          "away": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 0,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 0,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1519246,
+          "referee": "Jeremie Pignard, France",
+          "timezone": "UTC",
+          "date": "2026-03-04T20:00:00+00:00",
+          "timestamp": 1772654400,
+          "periods": {
+            "first": 1772654400,
+            "second": 1772658000
+          },
+          "venue": {
+            "id": null,
+            "name": "Orange Velodrome",
+            "city": "Marseille"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "PEN",
+            "elapsed": 120,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 66,
+          "name": "Coupe de France",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/66.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Quarter-finals",
+          "standings": false
+        },
+        "teams": {
+          "home": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": false
+          },
+          "away": {
+            "id": 96,
+            "name": "Toulouse",
+            "logo": "https://media.api-sports.io/football/teams/96.png",
+            "winner": true
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": 3,
+            "away": 4
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1387908,
+          "referee": "J\u00e9r\u00f4me Brisard, France",
+          "timezone": "UTC",
+          "date": "2026-03-01T19:45:00+00:00",
+          "timestamp": 1772394300,
+          "periods": {
+            "first": 1772394300,
+            "second": 1772397900
+          },
+          "venue": {
+            "id": 667,
+            "name": "Orange V\u00e9lodrome",
+            "city": "Marseille"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 10
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 24",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": true
+          },
+          "away": {
+            "id": 80,
+            "name": "Lyon",
+            "logo": "https://media.api-sports.io/football/teams/80.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ],
+    "h2h": [
+      {
+        "fixture": {
+          "id": 1387837,
+          "referee": "Fran\u00e7ois Letexier, France",
+          "timezone": "UTC",
+          "date": "2025-12-14T19:45:00+00:00",
+          "timestamp": 1765741500,
+          "periods": {
+            "first": 1765741500,
+            "second": 1765745100
+          },
+          "venue": {
+            "id": 667,
+            "name": "Orange V\u00e9lodrome",
+            "city": "Marseille"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 4
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2025,
+          "round": "Regular Season - 16",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": true
+          },
+          "away": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 1,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 1,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1214007,
+          "referee": "B. Bastien",
+          "timezone": "UTC",
+          "date": "2025-04-12T15:00:00+00:00",
+          "timestamp": 1744470000,
+          "periods": {
+            "first": 1744470000,
+            "second": 1744473600
+          },
+          "venue": {
+            "id": 20470,
+            "name": "Stade Louis-II",
+            "city": "Monaco"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 7
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2024,
+          "round": "Regular Season - 29",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": true
+          },
+          "away": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 0
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 0
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 0
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1213862,
+          "referee": "C. Turpin",
+          "timezone": "UTC",
+          "date": "2024-12-01T19:45:00+00:00",
+          "timestamp": 1733082300,
+          "periods": {
+            "first": 1733082300,
+            "second": 1733085900
+          },
+          "venue": {
+            "id": 667,
+            "name": "Orange V\u00e9lodrome",
+            "city": "Marseille"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": 6
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2024,
+          "round": "Regular Season - 13",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": true
+          },
+          "away": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 1
+        },
+        "score": {
+          "halftime": {
+            "home": 0,
+            "away": 1
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 1
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1045045,
+          "referee": "W. Delajod",
+          "timezone": "UTC",
+          "date": "2024-01-27T20:00:00+00:00",
+          "timestamp": 1706385600,
+          "periods": {
+            "first": 1706385600,
+            "second": 1706389200
+          },
+          "venue": {
+            "id": 667,
+            "name": "Orange V\u00e9lodrome",
+            "city": "Marseille"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2023,
+          "round": "Regular Season - 19",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": null
+          },
+          "away": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": null
+          }
+        },
+        "goals": {
+          "home": 2,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 1,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 2,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      },
+      {
+        "fixture": {
+          "id": 1044939,
+          "referee": "B. Bastien",
+          "timezone": "UTC",
+          "date": "2023-09-30T19:00:00+00:00",
+          "timestamp": 1696100400,
+          "periods": {
+            "first": 1696100400,
+            "second": 1696104000
+          },
+          "venue": {
+            "id": 20470,
+            "name": "Stade Louis-II",
+            "city": "Monaco"
+          },
+          "status": {
+            "long": "Match Finished",
+            "short": "FT",
+            "elapsed": 90,
+            "extra": null
+          }
+        },
+        "league": {
+          "id": 61,
+          "name": "Ligue 1",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/61.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg",
+          "season": 2023,
+          "round": "Regular Season - 7",
+          "standings": true
+        },
+        "teams": {
+          "home": {
+            "id": 91,
+            "name": "Monaco",
+            "logo": "https://media.api-sports.io/football/teams/91.png",
+            "winner": true
+          },
+          "away": {
+            "id": 81,
+            "name": "Marseille",
+            "logo": "https://media.api-sports.io/football/teams/81.png",
+            "winner": false
+          }
+        },
+        "goals": {
+          "home": 3,
+          "away": 2
+        },
+        "score": {
+          "halftime": {
+            "home": 2,
+            "away": 2
+          },
+          "fulltime": {
+            "home": 3,
+            "away": 2
+          },
+          "extratime": {
+            "home": null,
+            "away": null
+          },
+          "penalty": {
+            "home": null,
+            "away": null
+          }
+        }
+      }
+    ]
+  }
+}

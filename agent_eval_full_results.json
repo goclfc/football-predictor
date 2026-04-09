@@ -1,0 +1,812 @@
+{
+  "evaluation": "full_agent_backtest_v2",
+  "total_matches": 200,
+  "total_raw_predictions": 36000,
+  "seasons": "2023-2024",
+  "agents": {
+    "FatigueAgent": {
+      "accuracy": 0.695,
+      "total_tests": 200,
+      "correct": 139,
+      "tier": 1,
+      "categories": {
+        "Fatigue\u2192Result": {
+          "total": 200,
+          "correct": 139,
+          "accuracy": 0.695
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 40,
+          "correct": 26,
+          "accuracy": 0.65
+        },
+        "La Liga": {
+          "total": 40,
+          "correct": 27,
+          "accuracy": 0.675
+        },
+        "Serie A": {
+          "total": 40,
+          "correct": 28,
+          "accuracy": 0.7
+        },
+        "Bundesliga": {
+          "total": 40,
+          "correct": 28,
+          "accuracy": 0.7
+        },
+        "Ligue 1": {
+          "total": 40,
+          "correct": 30,
+          "accuracy": 0.75
+        }
+      }
+    },
+    "VenueAgent": {
+      "accuracy": 0.565,
+      "total_tests": 400,
+      "correct": 226,
+      "tier": 2,
+      "categories": {
+        "Venue\u2192Home": {
+          "total": 200,
+          "correct": 139,
+          "accuracy": 0.695
+        },
+        "Atmosphere\u2192HomeWin": {
+          "total": 200,
+          "correct": 87,
+          "accuracy": 0.435
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 46,
+          "accuracy": 0.575
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 41,
+          "accuracy": 0.5125
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 43,
+          "accuracy": 0.5375
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 48,
+          "accuracy": 0.6
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 48,
+          "accuracy": 0.6
+        }
+      }
+    },
+    "TacticalAgent": {
+      "accuracy": 0.425,
+      "total_tests": 400,
+      "correct": 170,
+      "tier": 4,
+      "categories": {
+        "TacticalEdge\u2192Result": {
+          "total": 200,
+          "correct": 89,
+          "accuracy": 0.445
+        },
+        "Possession\u2192Result": {
+          "total": 200,
+          "correct": 81,
+          "accuracy": 0.405
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 51,
+          "accuracy": 0.6375
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 30,
+          "accuracy": 0.375
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 30,
+          "accuracy": 0.375
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 36,
+          "accuracy": 0.45
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 23,
+          "accuracy": 0.2875
+        }
+      }
+    },
+    "WeatherAgent": {
+      "accuracy": 0.52,
+      "total_tests": 200,
+      "correct": 104,
+      "tier": 3,
+      "categories": {
+        "Weather\u2192Over2.5": {
+          "total": 200,
+          "correct": 104,
+          "accuracy": 0.52
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 40,
+          "correct": 20,
+          "accuracy": 0.5
+        },
+        "La Liga": {
+          "total": 40,
+          "correct": 17,
+          "accuracy": 0.425
+        },
+        "Serie A": {
+          "total": 40,
+          "correct": 21,
+          "accuracy": 0.525
+        },
+        "Bundesliga": {
+          "total": 40,
+          "correct": 25,
+          "accuracy": 0.625
+        },
+        "Ligue 1": {
+          "total": 40,
+          "correct": 21,
+          "accuracy": 0.525
+        }
+      }
+    },
+    "AttackingProfileAgent": {
+      "accuracy": 0.6088,
+      "total_tests": 800,
+      "correct": 487,
+      "tier": 1,
+      "categories": {
+        "xG\u2192Scoring": {
+          "total": 200,
+          "correct": 142,
+          "accuracy": 0.71
+        },
+        "xG\u2192Over2.5": {
+          "total": 200,
+          "correct": 104,
+          "accuracy": 0.52
+        },
+        "BTTS": {
+          "total": 200,
+          "correct": 106,
+          "accuracy": 0.53
+        },
+        "FirstGoal\u2192Home": {
+          "total": 200,
+          "correct": 135,
+          "accuracy": 0.675
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 160,
+          "correct": 97,
+          "accuracy": 0.6062
+        },
+        "La Liga": {
+          "total": 160,
+          "correct": 92,
+          "accuracy": 0.575
+        },
+        "Serie A": {
+          "total": 160,
+          "correct": 93,
+          "accuracy": 0.5813
+        },
+        "Bundesliga": {
+          "total": 160,
+          "correct": 107,
+          "accuracy": 0.6687
+        },
+        "Ligue 1": {
+          "total": 160,
+          "correct": 98,
+          "accuracy": 0.6125
+        }
+      }
+    },
+    "DefensiveProfileAgent": {
+      "accuracy": 0.2825,
+      "total_tests": 400,
+      "correct": 113,
+      "tier": 4,
+      "categories": {
+        "CleanSheet_Home": {
+          "total": 200,
+          "correct": 58,
+          "accuracy": 0.29
+        },
+        "CleanSheet_Away": {
+          "total": 200,
+          "correct": 55,
+          "accuracy": 0.275
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 23,
+          "accuracy": 0.2875
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 25,
+          "accuracy": 0.3125
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 26,
+          "accuracy": 0.325
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 18,
+          "accuracy": 0.225
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 21,
+          "accuracy": 0.2625
+        }
+      }
+    },
+    "GoalkeeperAgent": {
+      "accuracy": 0.2767,
+      "total_tests": 600,
+      "correct": 166,
+      "tier": 4,
+      "categories": {
+        "GK_Rating\u2192Result": {
+          "total": 200,
+          "correct": 61,
+          "accuracy": 0.305
+        },
+        "GK_CS_Home": {
+          "total": 200,
+          "correct": 58,
+          "accuracy": 0.29
+        },
+        "GK_CS_Away": {
+          "total": 200,
+          "correct": 47,
+          "accuracy": 0.235
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 120,
+          "correct": 35,
+          "accuracy": 0.2917
+        },
+        "La Liga": {
+          "total": 120,
+          "correct": 36,
+          "accuracy": 0.3
+        },
+        "Serie A": {
+          "total": 120,
+          "correct": 36,
+          "accuracy": 0.3
+        },
+        "Bundesliga": {
+          "total": 120,
+          "correct": 30,
+          "accuracy": 0.25
+        },
+        "Ligue 1": {
+          "total": 120,
+          "correct": 29,
+          "accuracy": 0.2417
+        }
+      }
+    },
+    "InjuryAgent": {
+      "accuracy": 0.5,
+      "total_tests": 400,
+      "correct": 200,
+      "tier": 3,
+      "categories": {
+        "InjuryDiff\u2192Result": {
+          "total": 200,
+          "correct": 139,
+          "accuracy": 0.695
+        },
+        "LineupStrength\u2192Result": {
+          "total": 200,
+          "correct": 61,
+          "accuracy": 0.305
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        }
+      }
+    },
+    "ManagerAgent": {
+      "accuracy": 0.45,
+      "total_tests": 600,
+      "correct": 270,
+      "tier": 4,
+      "categories": {
+        "ManagerEdge\u2192Result": {
+          "total": 200,
+          "correct": 61,
+          "accuracy": 0.305
+        },
+        "ManagerAdjust\u2192Result": {
+          "total": 200,
+          "correct": 105,
+          "accuracy": 0.525
+        },
+        "ManagerCreativity\u2192Scoring": {
+          "total": 200,
+          "correct": 104,
+          "accuracy": 0.52
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 120,
+          "correct": 68,
+          "accuracy": 0.5667
+        },
+        "La Liga": {
+          "total": 120,
+          "correct": 55,
+          "accuracy": 0.4583
+        },
+        "Serie A": {
+          "total": 120,
+          "correct": 57,
+          "accuracy": 0.475
+        },
+        "Bundesliga": {
+          "total": 120,
+          "correct": 60,
+          "accuracy": 0.5
+        },
+        "Ligue 1": {
+          "total": 120,
+          "correct": 30,
+          "accuracy": 0.25
+        }
+      }
+    },
+    "StakesAgent": {
+      "accuracy": 0.4125,
+      "total_tests": 400,
+      "correct": 165,
+      "tier": 4,
+      "categories": {
+        "Motivation\u2192Result": {
+          "total": 200,
+          "correct": 61,
+          "accuracy": 0.305
+        },
+        "Intensity\u2192Goals": {
+          "total": 200,
+          "correct": 104,
+          "accuracy": 0.52
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 34,
+          "accuracy": 0.425
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 30,
+          "accuracy": 0.375
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 33,
+          "accuracy": 0.4125
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 37,
+          "accuracy": 0.4625
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 31,
+          "accuracy": 0.3875
+        }
+      }
+    },
+    "RefereeAgent": {
+      "accuracy": 0.5,
+      "total_tests": 400,
+      "correct": 200,
+      "tier": 3,
+      "categories": {
+        "RefPenalty\u2192Goals": {
+          "total": 200,
+          "correct": 104,
+          "accuracy": 0.52
+        },
+        "RefStrict\u2192Under2.5": {
+          "total": 200,
+          "correct": 96,
+          "accuracy": 0.48
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 40,
+          "accuracy": 0.5
+        }
+      }
+    },
+    "RivalryIntensityAgent": {
+      "accuracy": 0.48,
+      "total_tests": 400,
+      "correct": 192,
+      "tier": 3,
+      "categories": {
+        "Rivalry\u2192Goals": {
+          "total": 200,
+          "correct": 97,
+          "accuracy": 0.485
+        },
+        "RivalryCards\u2192BTTS": {
+          "total": 200,
+          "correct": 95,
+          "accuracy": 0.475
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 41,
+          "accuracy": 0.5125
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 42,
+          "accuracy": 0.525
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 39,
+          "accuracy": 0.4875
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 34,
+          "accuracy": 0.425
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 36,
+          "accuracy": 0.45
+        }
+      }
+    },
+    "RestDaysAgent": {
+      "accuracy": 0.455,
+      "total_tests": 400,
+      "correct": 182,
+      "tier": 4,
+      "categories": {
+        "Rest\u2192Result": {
+          "total": 200,
+          "correct": 88,
+          "accuracy": 0.44
+        },
+        "RestDays\u2192Result": {
+          "total": 200,
+          "correct": 94,
+          "accuracy": 0.47
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 32,
+          "accuracy": 0.4
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 39,
+          "accuracy": 0.4875
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 33,
+          "accuracy": 0.4125
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 35,
+          "accuracy": 0.4375
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 43,
+          "accuracy": 0.5375
+        }
+      }
+    },
+    "MediaPressureAgent": {
+      "accuracy": 0.305,
+      "total_tests": 400,
+      "correct": 122,
+      "tier": 4,
+      "categories": {
+        "Focus\u2192Result": {
+          "total": 200,
+          "correct": 61,
+          "accuracy": 0.305
+        },
+        "LessPressure\u2192Result": {
+          "total": 200,
+          "correct": 61,
+          "accuracy": 0.305
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 24,
+          "accuracy": 0.3
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 28,
+          "accuracy": 0.35
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 24,
+          "accuracy": 0.3
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 26,
+          "accuracy": 0.325
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 20,
+          "accuracy": 0.25
+        }
+      }
+    },
+    "KeyPlayerAgent": {
+      "accuracy": 0.3925,
+      "total_tests": 400,
+      "correct": 157,
+      "tier": 4,
+      "categories": {
+        "KeyPlayer\u2192Result": {
+          "total": 200,
+          "correct": 61,
+          "accuracy": 0.305
+        },
+        "GoalThreat\u2192Over2.5": {
+          "total": 200,
+          "correct": 96,
+          "accuracy": 0.48
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 34,
+          "accuracy": 0.425
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 36,
+          "accuracy": 0.45
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 31,
+          "accuracy": 0.3875
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 27,
+          "accuracy": 0.3375
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 29,
+          "accuracy": 0.3625
+        }
+      }
+    },
+    "SetPieceAgent": {
+      "accuracy": 0.5767,
+      "total_tests": 600,
+      "correct": 346,
+      "tier": 2,
+      "categories": {
+        "SetPiecePen\u2192Goals": {
+          "total": 200,
+          "correct": 96,
+          "accuracy": 0.48
+        },
+        "CornerAdv\u2192HomeScores": {
+          "total": 200,
+          "correct": 85,
+          "accuracy": 0.425
+        },
+        "DeadBall\u2192Goals": {
+          "total": 200,
+          "correct": 165,
+          "accuracy": 0.825
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 120,
+          "correct": 75,
+          "accuracy": 0.625
+        },
+        "La Liga": {
+          "total": 120,
+          "correct": 71,
+          "accuracy": 0.5917
+        },
+        "Serie A": {
+          "total": 120,
+          "correct": 71,
+          "accuracy": 0.5917
+        },
+        "Bundesliga": {
+          "total": 120,
+          "correct": 64,
+          "accuracy": 0.5333
+        },
+        "Ligue 1": {
+          "total": 120,
+          "correct": 65,
+          "accuracy": 0.5417
+        }
+      }
+    },
+    "LineupAgent": {
+      "accuracy": 0.695,
+      "total_tests": 400,
+      "correct": 278,
+      "tier": 1,
+      "categories": {
+        "LineupInjury\u2192Result": {
+          "total": 200,
+          "correct": 139,
+          "accuracy": 0.695
+        },
+        "SquadSize\u2192Result": {
+          "total": 200,
+          "correct": 139,
+          "accuracy": 0.695
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 52,
+          "accuracy": 0.65
+        },
+        "La Liga": {
+          "total": 80,
+          "correct": 54,
+          "accuracy": 0.675
+        },
+        "Serie A": {
+          "total": 80,
+          "correct": 56,
+          "accuracy": 0.7
+        },
+        "Bundesliga": {
+          "total": 80,
+          "correct": 56,
+          "accuracy": 0.7
+        },
+        "Ligue 1": {
+          "total": 80,
+          "correct": 60,
+          "accuracy": 0.75
+        }
+      }
+    },
+    "PlayerNewsAgent": {
+      "accuracy": 0,
+      "total_tests": 0,
+      "correct": 0,
+      "tier": 4,
+      "categories": {},
+      "by_league": {}
+    },
+    "MomentumAgent": {
+      "accuracy": 0,
+      "total_tests": 0,
+      "correct": 0,
+      "tier": 4,
+      "categories": {},
+      "by_league": {}
+    },
+    "ScheduleContextAgent": {
+      "accuracy": 0,
+      "total_tests": 0,
+      "correct": 0,
+      "tier": 4,
+      "categories": {},
+      "by_league": {}
+    }
+  }
+}

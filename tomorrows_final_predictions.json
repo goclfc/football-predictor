@@ -1,0 +1,275 @@
+[
+  {
+    "match": "Valencia vs Celta Vigo",
+    "league": "La Liga",
+    "kickoff": "2026-04-05T14:15",
+    "home_form": "WLWWL",
+    "away_form": "LWDDL",
+    "h2h_summary": {
+      "home_wins": 1,
+      "draws": 1,
+      "away_wins": 3,
+      "avg_goals": 4.0,
+      "total_matches": 5
+    },
+    "odds": {
+      "home": 2.48,
+      "draw": 3.4,
+      "away": 3.35
+    },
+    "v5_prob": {
+      "home": 0.419,
+      "draw": 0.289,
+      "away": 0.293
+    },
+    "adj_xg": {
+      "home": 1.26,
+      "away": 1.05
+    },
+    "predicted_score": "1-1",
+    "predicted_result": "Home Win (41%)",
+    "result_probs": {
+      "home": 0.411,
+      "draw": 0.281,
+      "away": 0.308
+    },
+    "top5_scores": [
+      [
+        "1-1",
+        13.1
+      ],
+      [
+        "1-0",
+        12.5
+      ],
+      [
+        "0-1",
+        10.4
+      ],
+      [
+        "0-0",
+        9.9
+      ],
+      [
+        "2-1",
+        8.3
+      ]
+    ],
+    "over25": 40.6,
+    "btts": 46.5,
+    "expected_yellows": 4.4,
+    "rivalry_intensity": 0.3,
+    "agents_active": 14,
+    "avg_confidence": 0.52,
+    "key_factors": [
+      "High stakes match (H:9/10, A:5/10)",
+      "H2H: 1W-1D-3L, avg 4.0 goals",
+      "Over 2.5 prob: 41% | BTTS: 47%"
+    ]
+  },
+  {
+    "match": "Napoli vs AC Milan",
+    "league": "Serie A",
+    "kickoff": "2026-04-06T18:45",
+    "home_form": "WWWWL",
+    "away_form": "WLWWL",
+    "h2h_summary": {
+      "home_wins": 3,
+      "draws": 0,
+      "away_wins": 2,
+      "avg_goals": 2.2,
+      "total_matches": 5
+    },
+    "odds": {
+      "home": 2.58,
+      "draw": 3.11,
+      "away": 3.35
+    },
+    "v5_prob": {
+      "home": 0.365,
+      "draw": 0.33,
+      "away": 0.305
+    },
+    "adj_xg": {
+      "home": 1.22,
+      "away": 0.97
+    },
+    "predicted_score": "1-0",
+    "predicted_result": "Home Win (42%)",
+    "result_probs": {
+      "home": 0.417,
+      "draw": 0.289,
+      "away": 0.293
+    },
+    "top5_scores": [
+      [
+        "1-0",
+        13.7
+      ],
+      [
+        "1-1",
+        13.2
+      ],
+      [
+        "0-0",
+        11.2
+      ],
+      [
+        "0-1",
+        10.9
+      ],
+      [
+        "2-0",
+        8.3
+      ]
+    ],
+    "over25": 37.4,
+    "btts": 43.7,
+    "expected_yellows": 4.1,
+    "rivalry_intensity": 0.3,
+    "agents_active": 14,
+    "avg_confidence": 0.52,
+    "key_factors": [
+      "High stakes match (H:10/10, A:10/10)",
+      "H2H: 3W-0D-2L, avg 2.2 goals",
+      "Strong home venue effect (+5.2%)",
+      "Over 2.5 prob: 37% | BTTS: 44%"
+    ]
+  },
+  {
+    "match": "Oviedo vs Sevilla",
+    "league": "La Liga",
+    "kickoff": "2026-04-05T16:30",
+    "home_form": "LWDLL",
+    "away_form": "LLDDW",
+    "h2h_summary": {
+      "home_wins": 0,
+      "draws": 0,
+      "away_wins": 1,
+      "avg_goals": 4.0,
+      "total_matches": 1
+    },
+    "odds": {
+      "home": 2.88,
+      "draw": 3.05,
+      "away": 3.0
+    },
+    "v5_prob": {
+      "home": 0.314,
+      "draw": 0.327,
+      "away": 0.359
+    },
+    "adj_xg": {
+      "home": 1.12,
+      "away": 1.09
+    },
+    "predicted_score": "1-1",
+    "predicted_result": "Lean Home (36%)",
+    "result_probs": {
+      "home": 0.362,
+      "draw": 0.29,
+      "away": 0.347
+    },
+    "top5_scores": [
+      [
+        "1-1",
+        13.4
+      ],
+      [
+        "1-0",
+        12.3
+      ],
+      [
+        "0-1",
+        12.0
+      ],
+      [
+        "0-0",
+        11.0
+      ],
+      [
+        "2-1",
+        7.5
+      ]
+    ],
+    "over25": 38.0,
+    "btts": 44.7,
+    "expected_yellows": 3.8,
+    "rivalry_intensity": 0.3,
+    "agents_active": 14,
+    "avg_confidence": 0.52,
+    "key_factors": [
+      "Strong home venue effect (+6.0%)",
+      "Over 2.5 prob: 38% | BTTS: 45%"
+    ]
+  },
+  {
+    "match": "AS Monaco vs Marseille",
+    "league": "Ligue 1",
+    "kickoff": "2026-04-05T18:45",
+    "home_form": "WWWWD",
+    "away_form": "LWWDW",
+    "h2h_summary": {
+      "home_wins": 0,
+      "draws": 1,
+      "away_wins": 4,
+      "avg_goals": 3.2,
+      "total_matches": 5
+    },
+    "odds": {
+      "home": 2.22,
+      "draw": 3.85,
+      "away": 3.5
+    },
+    "v5_prob": {
+      "home": 0.458,
+      "draw": 0.267,
+      "away": 0.275
+    },
+    "adj_xg": {
+      "home": 1.19,
+      "away": 1.09
+    },
+    "predicted_score": "1-1",
+    "predicted_result": "Lean Home (38%)",
+    "result_probs": {
+      "home": 0.382,
+      "draw": 0.285,
+      "away": 0.334
+    },
+    "top5_scores": [
+      [
+        "1-1",
+        13.3
+      ],
+      [
+        "1-0",
+        12.1
+      ],
+      [
+        "0-1",
+        11.1
+      ],
+      [
+        "0-0",
+        10.2
+      ],
+      [
+        "2-1",
+        7.9
+      ]
+    ],
+    "over25": 39.9,
+    "btts": 46.2,
+    "expected_yellows": 3.9,
+    "rivalry_intensity": 0.3,
+    "agents_active": 14,
+    "avg_confidence": 0.52,
+    "key_factors": [
+      "High stakes match (H:5/10, A:10/10)",
+      "H2H: 0W-1D-4L, avg 3.2 goals",
+      "Strong home venue effect (+6.0%)",
+      "Over 2.5 prob: 40% | BTTS: 46%"
+    ]
+  }
+]

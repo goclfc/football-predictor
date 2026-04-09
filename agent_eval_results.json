@@ -1,0 +1,440 @@
+{
+  "evaluation": "proper_agent_backtest",
+  "total_matches": 200,
+  "seasons": "2023-2024",
+  "leagues": [
+    "Ligue 1",
+    "Serie A",
+    "Bundesliga",
+    "La Liga",
+    "Premier League"
+  ],
+  "agents": {
+    "AttackingProfileAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 80,
+      "correct_predictions": 33,
+      "accuracy": 0.4125,
+      "confidence_weighted_accuracy": 0.4125,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Home Scoring": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        },
+        "Away Scoring": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        },
+        "First Goal": {
+          "total": 20,
+          "correct": 13,
+          "accuracy": 0.65
+        },
+        "BTTS": {
+          "total": 20,
+          "correct": 10,
+          "accuracy": 0.5
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 80,
+          "correct": 33,
+          "accuracy": 0.4125
+        }
+      }
+    },
+    "DefensiveProfileAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 40,
+      "correct_predictions": 10,
+      "accuracy": 0.25,
+      "confidence_weighted_accuracy": 0.25,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Clean Sheet Home": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        },
+        "Clean Sheet Away": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 40,
+          "correct": 10,
+          "accuracy": 0.25
+        }
+      }
+    },
+    "GoalkeeperAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 40,
+      "correct_predictions": 10,
+      "accuracy": 0.25,
+      "confidence_weighted_accuracy": 0.25,
+      "signal_strength": "WEAK",
+      "categories": {
+        "GK Clean Sheet Home": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        },
+        "GK Clean Sheet Away": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 40,
+          "correct": 10,
+          "accuracy": 0.25
+        }
+      }
+    },
+    "TacticalAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 40,
+      "correct_predictions": 27,
+      "accuracy": 0.675,
+      "confidence_weighted_accuracy": 0.675,
+      "signal_strength": "STRONG",
+      "categories": {
+        "Tactical Edge \u2192 Home Result": {
+          "total": 20,
+          "correct": 13,
+          "accuracy": 0.65
+        },
+        "Possession \u2192 Result": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 40,
+          "correct": 27,
+          "accuracy": 0.675
+        }
+      }
+    },
+    "SetPieceAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 8,
+      "accuracy": 0.4,
+      "confidence_weighted_accuracy": 0.4,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Penalty \u2192 Goals": {
+          "total": 20,
+          "correct": 8,
+          "accuracy": 0.4
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 8,
+          "accuracy": 0.4
+        }
+      }
+    },
+    "InjuryAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 6,
+      "accuracy": 0.3,
+      "confidence_weighted_accuracy": 0.3,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Injury Differential \u2192 Result": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      }
+    },
+    "FatigueAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 14,
+      "accuracy": 0.7,
+      "confidence_weighted_accuracy": 0.7,
+      "signal_strength": "STRONG",
+      "categories": {
+        "Fatigue Differential \u2192 Result": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        }
+      }
+    },
+    "ManagerAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 9,
+      "accuracy": 0.45,
+      "confidence_weighted_accuracy": 0.45,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Manager Edge \u2192 Win": {
+          "total": 20,
+          "correct": 9,
+          "accuracy": 0.45
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 9,
+          "accuracy": 0.45
+        }
+      }
+    },
+    "VenueAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 14,
+      "accuracy": 0.7,
+      "confidence_weighted_accuracy": 0.7,
+      "signal_strength": "STRONG",
+      "categories": {
+        "Venue \u2192 Home Result": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        }
+      }
+    },
+    "WeatherAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 12,
+      "accuracy": 0.6,
+      "confidence_weighted_accuracy": 0.6,
+      "signal_strength": "STRONG",
+      "categories": {
+        "Weather \u2192 Goals": {
+          "total": 20,
+          "correct": 12,
+          "accuracy": 0.6
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 12,
+          "accuracy": 0.6
+        }
+      }
+    },
+    "RefereeAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 10,
+      "accuracy": 0.5,
+      "confidence_weighted_accuracy": 0.5,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Ref Penalty \u2192 Goals": {
+          "total": 20,
+          "correct": 10,
+          "accuracy": 0.5
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 10,
+          "accuracy": 0.5
+        }
+      }
+    },
+    "StakesAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 7,
+      "accuracy": 0.35,
+      "confidence_weighted_accuracy": 0.35,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Motivation \u2192 Result": {
+          "total": 20,
+          "correct": 7,
+          "accuracy": 0.35
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 7,
+          "accuracy": 0.35
+        }
+      }
+    },
+    "RivalryIntensityAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 8,
+      "accuracy": 0.4,
+      "confidence_weighted_accuracy": 0.4,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Rivalry \u2192 Goals": {
+          "total": 20,
+          "correct": 8,
+          "accuracy": 0.4
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 8,
+          "accuracy": 0.4
+        }
+      }
+    },
+    "RestDaysAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 5,
+      "accuracy": 0.25,
+      "confidence_weighted_accuracy": 0.25,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Rest \u2192 Result": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 5,
+          "accuracy": 0.25
+        }
+      }
+    },
+    "MediaPressureAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 6,
+      "accuracy": 0.3,
+      "confidence_weighted_accuracy": 0.3,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Focus \u2192 Result": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      }
+    },
+    "KeyPlayerAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 6,
+      "accuracy": 0.3,
+      "confidence_weighted_accuracy": 0.3,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Key Player \u2192 Result": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      }
+    },
+    "LineupAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 14,
+      "accuracy": 0.7,
+      "confidence_weighted_accuracy": 0.7,
+      "signal_strength": "STRONG",
+      "categories": {
+        "Lineup Strength \u2192 Result": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 14,
+          "accuracy": 0.7
+        }
+      }
+    },
+    "PlayerNewsAgent": {
+      "total_matches_analyzed": 20,
+      "testable_predictions": 20,
+      "correct_predictions": 6,
+      "accuracy": 0.3,
+      "confidence_weighted_accuracy": 0.3,
+      "signal_strength": "WEAK",
+      "categories": {
+        "Player News \u2192 Scoring": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      },
+      "by_league": {
+        "Premier League": {
+          "total": 20,
+          "correct": 6,
+          "accuracy": 0.3
+        }
+      }
+    }
+  }
+}
